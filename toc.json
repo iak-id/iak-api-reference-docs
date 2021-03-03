@@ -169,6 +169,178 @@
                   "uri": "docs/postpaid/core api/product/gas negara/payment.md"
                 }
               ]
+            },
+            {
+              "type": "group",
+              "title": "Multifinance",
+              "items": [
+                {
+                  "type": "item",
+                  "title": "Inquiry",
+                  "uri": "docs/postpaid/core api/product/multifinance/inquiry.md"
+                },
+                {
+                  "type": "item",
+                  "title": "Payment",
+                  "uri": "docs/postpaid/core api/product/multifinance/payment.md"
+                }
+              ]
+            },
+            {
+              "type": "group",
+              "title": "PDAM",
+              "items": [
+                {
+                  "type": "item",
+                  "title": "Inquiry",
+                  "uri": "docs/postpaid/core api/product/pdam/inquiry.md"
+                },
+                {
+                  "type": "item",
+                  "title": "Payment",
+                  "uri": "docs/postpaid/core api/product/pdam/payment.md"
+                }
+              ]
+            },
+            {
+              "type": "group",
+              "title": "PLN Postpaid",
+              "items": [
+                {
+                  "type": "item",
+                  "title": "Inquiry",
+                  "uri": "docs/postpaid/core api/product/plnpostpaid/inquiry.md"
+                },
+                {
+                  "type": "item",
+                  "title": "Payment",
+                  "uri": "docs/postpaid/core api/product/plnpostpaid/payment.md"
+                }
+              ]
+            },
+            {
+              "type": "group",
+              "title": "Television",
+              "items": [
+                {
+                  "type": "group",
+                  "title": "Telkomvision",
+                  "items": [
+                    {
+                      "type": "item",
+                      "title": "Inquiry",
+                      "uri": "docs/postpaid/core api/product/television/telkomvision/inquiry.md"
+                    },
+                    {
+                      "type": "item",
+                      "title": "Payment",
+                      "uri": "docs/postpaid/core api/product/television/telkomvision/payment.md"
+                    }
+                  ]
+                },
+                {
+                  "type": "group",
+                  "title": "Non Telkomvision",
+                  "items": [
+                    {
+                      "type": "item",
+                      "title": "Inquiry",
+                      "uri": "docs/postpaid/core api/product/television/non-telkomvision/inquiry.md"
+                    },
+                    {
+                      "type": "item",
+                      "title": "Payment",
+                      "uri": "docs/postpaid/core api/product/television/non-telkomvision/payment.md"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "group",
+              "title": "Telco Postpaid",
+              "items": [
+                {
+                  "type": "item",
+                  "title": "Inquiry",
+                  "uri": "docs/postpaid/core api/product/telco/inquiry.md"
+                },
+                {
+                  "type": "item",
+                  "title": "Payment",
+                  "uri": "docs/postpaid/core api/product/telco/payment.md"
+                }
+              ]
+            },
+            {
+              "type": "group",
+              "title": "Internet",
+              "items": [
+                {
+                  "type": "group",
+                  "title": "Telkom Speedy and Telkom PSTN",
+                  "items": [
+                    {
+                      "type": "item",
+                      "title": "Inquiry",
+                      "uri": "docs/postpaid/core api/product/internet/telkom-speedy-and-telkom-pstn/inquiry.md"
+                    },
+                    {
+                      "type": "item",
+                      "title": "Payment",
+                      "uri": "docs/postpaid/core api/product/internet/telkom-speedy-and-telkom-pstn/payment.md"
+                    }
+                  ]
+                },
+                {
+                  "type": "group",
+                  "title": "Non Telkom Speedy and Telkom PSTN",
+                  "items": [
+                    {
+                      "type": "item",
+                      "title": "Inquiry",
+                      "uri": "docs/postpaid/core api/product/internet/non-telkom-speedy-and-telkom-pstn/inquiry.md"
+                    },
+                    {
+                      "type": "item",
+                      "title": "Payment",
+                      "uri": "docs/postpaid/core api/product/internet/non-telkom-speedy-and-telkom-pstn/payment.md"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "group",
+              "title": "ESAMSAT",
+              "items": [
+                {
+                  "type": "item",
+                  "title": "Inquiry",
+                  "uri": "docs/postpaid/core api/product/esamsat/inquiry.md"
+                },
+                {
+                  "type": "item",
+                  "title": "Payment",
+                  "uri": "docs/postpaid/core api/product/esamsat/payment.md"
+                }
+              ]
+            },
+            {
+              "type": "group",
+              "title": "PBB",
+              "items": [
+                {
+                  "type": "item",
+                  "title": "Inquiry",
+                  "uri": "docs/postpaid/core api/product/pbb/inquiry.md"
+                },
+                {
+                  "type": "item",
+                  "title": "Payment",
+                  "uri": "docs/postpaid/core api/product/pbb/payment.md"
+                }
+              ]
             }
           ]
         },
