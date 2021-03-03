@@ -1,0 +1,3 @@
+# inquiry-game-id
+
+The beginning of an awesome article...

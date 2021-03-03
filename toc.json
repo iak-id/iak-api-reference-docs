@@ -12,7 +12,7 @@
     },
     {
       "type": "divider",
-      "title": "Prepaid V1 (Legacy)"
+      "title": "Prepaid"
     },
     {
       "type": "item",
@@ -54,57 +54,112 @@
       "title": "Core API",
       "items": [
         {
-          "type": "item",
-          "title": "Pricelist",
-          "uri": "docs/prepaid v1 (legacy)/core api/price-list.md"
-        },
-        {
           "type": "group",
-          "title": "Inquiry",
+          "title": "v1",
           "items": [
             {
               "type": "item",
-              "title": "Inquiry PLN",
-              "uri": "docs/prepaid v1 (legacy)/core api/inquiry-pln.md"
+              "title": "Pricelist",
+              "uri": "docs/prepaid v1 (legacy)/core api/price-list.md"
             },
             {
-              "type": "item",
-              "title": "Inquiry Game ID",
-              "uri": "docs/prepaid v1 (legacy)/core api/inquiry-game-id.md"
+              "type": "group",
+              "title": "Inquiry",
+              "items": [
+                {
+                  "type": "item",
+                  "title": "Inquiry PLN",
+                  "uri": "docs/prepaid v1 (legacy)/core api/inquiry-pln.md"
+                },
+                {
+                  "type": "item",
+                  "title": "Inquiry Game ID",
+                  "uri": "docs/prepaid v1 (legacy)/core api/inquiry-game-id.md"
+                },
+                {
+                  "type": "item",
+                  "title": "Inquiry Game Server",
+                  "uri": "docs/prepaid v1 (legacy)/core api/inquiry-game-server.md"
+                }
+              ]
             },
             {
-              "type": "item",
-              "title": "Inquiry Game Server",
-              "uri": "docs/prepaid v1 (legacy)/core api/inquiry-game-server.md"
-            }
-          ]
-        },
-        {
-          "type": "group",
-          "title": "Top Up",
-          "items": [
-            {
-              "type": "item",
+              "type": "group",
               "title": "Top Up",
-              "uri": "docs/prepaid v1 (legacy)/core api/top up/top-up.md"
+              "items": [
+                {
+                  "type": "item",
+                  "title": "Top Up",
+                  "uri": "docs/prepaid v1 (legacy)/core api/top up/top-up.md"
+                },
+                {
+                  "type": "item",
+                  "title": "Auto Detect Operator",
+                  "uri": "docs/prepaid v1 (legacy)/core api/top up/auto-detect-operator.md"
+                }
+              ]
             },
             {
               "type": "item",
-              "title": "Auto Detect Operator",
-              "uri": "docs/prepaid v1 (legacy)/core api/top up/auto-detect-operator.md"
+              "title": "Check Status",
+              "uri": "docs/prepaid v1 (legacy)/core api/check-status.md"
             }
           ]
         },
         {
-          "type": "item",
-          "title": "Check Status",
-          "uri": "docs/prepaid v1 (legacy)/core api/check-status.md"
+          "type": "group",
+          "title": "v2",
+          "items": [
+            {
+              "type": "item",
+              "title": "Pricelist",
+              "uri": "docs/prepaid v2/core api/price-list.md"
+            },
+            {
+              "type": "group",
+              "title": "Inquiry",
+              "items": [
+                {
+                  "type": "item",
+                  "title": "Inquiry PLN",
+                  "uri": "docs/prepaid v2/core api/inquiry-pln.md"
+                },
+                {
+                  "type": "item",
+                  "title": "Inquiry Game ID",
+                  "uri": "docs/prepaid v2/core api/inquiry-game-id.md"
+                },
+                {
+                  "type": "item",
+                  "title": "Inquiry Game Server",
+                  "uri": "docs/prepaid v2/core api/inquiry-game-server.md"
+                }
+              ]
+            },
+            {
+              "type": "group",
+              "title": "Top Up",
+              "items": [
+                {
+                  "type": "item",
+                  "title": "Top Up",
+                  "uri": "docs/prepaid v2/core api/top up/top-up.md"
+                },
+                {
+                  "type": "item",
+                  "title": "Auto Detect Operator",
+                  "uri": "docs/prepaid v2/core api/top up/auto-detect-operator.md"
+                }
+              ]
+            },
+            {
+              "type": "item",
+              "title": "Check Status",
+              "uri": "docs/prepaid v2/core api/check-status.md"
+            }
+          ]
         }
       ]
-    },
-    {
-      "type": "divider",
-      "title": "Prepaid V2 (New)"
     },
     {
       "type": "divider",
