@@ -11,6 +11,11 @@
       "uri": "docs/authentication.md"
     },
     {
+      "type": "item",
+      "title": "Postman Collection",
+      "uri": "docs/postman-collection.md"
+    },
+    {
       "type": "divider",
       "title": "Prepaid"
     },
