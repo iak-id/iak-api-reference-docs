@@ -1,0 +1,21 @@
+{
+  "items": [
+    {
+      "type": "divider",
+      "title": "Prepaid V1 (Legacy)"
+    },
+    {
+      "type": "item",
+      "title": "Prepaid Flow",
+      "uri": "docs/prepaid v1 (legacy)/prepaid-flow.md"
+    },
+    {
+      "type": "divider",
+      "title": "Prepaid V2 (New)"
+    },
+    {
+      "type": "divider",
+      "title": "Postpaid"
+    }
+  ]
+}

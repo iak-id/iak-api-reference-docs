@@ -1,0 +1,3 @@
+# auto-detect-operator
+
+The beginning of an awesome article...

@@ -1,0 +1,3 @@
+# response-code
+
+The beginning of an awesome article...

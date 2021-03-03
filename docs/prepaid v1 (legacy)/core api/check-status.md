@@ -1,0 +1,3 @@
+# check-status
+
+The beginning of an awesome article...
