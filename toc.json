@@ -24,7 +24,6 @@
       "title": "Base URL",
       "uri": "docs/prepaid v1 (legacy)/base-url.md"
     },
-    
     {
       "type": "item",
       "title": "Testing in Sandbox",
@@ -92,7 +91,7 @@
             {
               "type": "item",
               "title": "Auto Detect Operator",
-              "uri": "docs/prepaid v1 (legacy)/core api/top up/auto-detect-opeartor.md"
+              "uri": "docs/prepaid v1 (legacy)/core api/top up/auto-detect-operator.md"
             }
           ]
         },
@@ -110,6 +109,80 @@
     {
       "type": "divider",
       "title": "Postpaid"
+    },
+    {
+      "type": "item",
+      "title": "Postpaid Flows",
+      "uri": "docs/postpaid/postpaid-flow.md"
+    },
+    {
+      "type": "item",
+      "title": "Base URL",
+      "uri": "docs/postpaid/base-url.md"
+    },
+    {
+      "type": "item",
+      "title": "Response Code",
+      "uri": "docs/postpaid/response-code.md"
+    },
+    {
+      "type": "group",
+      "title": "Core API",
+      "items": [
+        {
+          "type": "item",
+          "title": "Pricelist",
+          "uri": "docs/postpaid/core api/price-list.md"
+        },
+        {
+          "type": "group",
+          "title": "Product",
+          "items": [
+            {
+              "type": "group",
+              "title": "BJPS Kesehatan",
+              "items": [
+                {
+                  "type": "item",
+                  "title": "Inquiry",
+                  "uri": "docs/postpaid/core api/product/bpjs kesehatan/inquiry.md"
+                },
+                {
+                  "type": "item",
+                  "title": "Payment",
+                  "uri": "docs/postpaid/core api/product/bpjs kesehatan/payment.md"
+                }
+              ]
+            },
+            {
+              "type": "group",
+              "title": "Gas Negara",
+              "items": [
+                {
+                  "type": "item",
+                  "title": "Inquiry",
+                  "uri": "docs/postpaid/core api/product/gas negara/inquiry.md"
+                },
+                {
+                  "type": "item",
+                  "title": "Payment",
+                  "uri": "docs/postpaid/core api/product/gas negara/payment.md"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "title": "Check Status",
+          "uri": "docs/postpaid/core api/check-status.md"
+        },
+        {
+          "type": "item",
+          "title": "Download Receipt",
+          "uri": "docs/postpaid/core api/download-receipt.md"
+        }
+      ]
     }
   ]
 }
