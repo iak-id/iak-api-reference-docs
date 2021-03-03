@@ -3,12 +3,12 @@
     {
       "type": "item",
       "title": "Introduction",
-      "uri": "docs/prepaid v1 (legacy)/introduction.md"
+      "uri": "docs/introduction.md"
     },
     {
       "type": "item",
       "title": "Authentication",
-      "uri": "docs/prepaid v1 (legacy)/authentication.md"
+      "uri": "docs/authentication.md"
     },
     {
       "type": "divider",
@@ -57,7 +57,7 @@
         {
           "type": "item",
           "title": "Pricelist",
-          "uri": "docs/prepaid v1 (legacy)/core api/inquiry-pln.md"
+          "uri": "docs/prepaid v1 (legacy)/core api/price-list.md"
         },
         {
           "type": "group",
