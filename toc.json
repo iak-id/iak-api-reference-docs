@@ -26,11 +26,6 @@
     },
     {
       "type": "item",
-      "title": "Base URL",
-      "uri": "docs/prepaid v1 (legacy)/base-url.md"
-    },
-    {
-      "type": "item",
       "title": "Testing in Sandbox",
       "uri": "docs/prepaid v1 (legacy)/testing-in-sandbox.md"
     },
@@ -179,11 +174,6 @@
       "type": "item",
       "title": "Postpaid Flows",
       "uri": "docs/postpaid/postpaid-flow.md"
-    },
-    {
-      "type": "item",
-      "title": "Base URL",
-      "uri": "docs/postpaid/base-url.md"
     },
     {
       "type": "item",
