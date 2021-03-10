@@ -7,8 +7,8 @@
     },
     {
       "type": "item",
-      "title": "Authentication",
-      "uri": "docs/authentication.md"
+      "title": "Request",
+      "uri": "docs/request.md"
     },
     {
       "type": "item",
