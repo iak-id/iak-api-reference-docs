@@ -5,14 +5,16 @@ In general here is the flow:
   1. Client call topup request
   2. IAK response **pending** at first
   3. Client will get the updated **status**. There are 2 ways to get updated status:
-      - IAK send response of the updated status to your [callback URL]()
-      - Client do checkstatus to IAK to get the updated status.
+      - [With callback](#flow-with-callback)
+      - [Without callback](#flow-without-callback)
 
 <!-- theme: info -->
 
 > Estimated processing time for each transaction is approximately 1 to 30 seconds
 
 ## Flow With Callback
+
+IAK send response of the updated status to your [callback URL]()
 
 ### Mobile Topup and Data Package Flow
 
