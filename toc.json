@@ -50,6 +50,11 @@
       "uri": "docs/prepaid v1 (legacy)/sn-format.md"
     },
     {
+      "type": "item",
+      "title": "Product Type and Operator",
+      "uri": "docs/prepaid v1 (legacy)/product-type-and-operator.md"
+    },
+    {
       "type": "group",
       "title": "Voucher Term and Condition",
       "items": [
