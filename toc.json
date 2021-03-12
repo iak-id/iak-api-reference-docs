@@ -100,7 +100,12 @@
           "items": [
             {
               "type": "item",
-              "title": "Pricelist",
+              "title": "Check Balance",
+              "uri": "docs/prepaid v1 (legacy)/core api/check-balance.md"
+            },
+            {
+              "type": "item",
+              "title": "Price List",
               "uri": "docs/prepaid v1 (legacy)/core api/price-list.md"
             },
             {
