@@ -1,3 +1,5 @@
-# testing-in-sandbox
+# Testing in Sandbox
 
-The beginning of an awesome article...
+In development environment, you can simulate response so IAK will send response to your callback URL based on the response that you choose. You can choose the response in sandbox report. 
+
+Learn more about sandbox report [here](https://iak-api.stoplight.io/docs/developer-documentation/docs/integration/sandbox-report.md)

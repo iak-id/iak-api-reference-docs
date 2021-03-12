@@ -1,6 +1,6 @@
 # Request
 
-To make request into IAK API, it is the same way as make request to other **RESTful API**. But there are several things that must be noticed.
+To make request into IAK API, it is the same way as make request to other **RESTful API**.
 
 ## Base URL
 
