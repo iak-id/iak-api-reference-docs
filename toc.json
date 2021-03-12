@@ -46,6 +46,11 @@
     },
     {
       "type": "item",
+      "title": "Game Format Request",
+      "uri": "docs/prepaid v1 (legacy)/game-format-request.md"
+    },
+    {
+      "type": "item",
       "title": "SN Format",
       "uri": "docs/prepaid v1 (legacy)/sn-format.md"
     },
