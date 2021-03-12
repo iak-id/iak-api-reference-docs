@@ -51,6 +51,42 @@
     },
     {
       "type": "group",
+      "title": "Voucher Term and Condition",
+      "items": [
+        {
+          "type": "item",
+          "title": "Alfamart",
+          "uri": "docs/voucher-tnc/alfamart.md"
+        },
+        {
+          "type": "item",
+          "title": "Blibli",
+          "uri": "docs/voucher-tnc/blibli.md"
+        },
+        {
+          "type": "item",
+          "title": "Bukalapak",
+          "uri": "docs/voucher-tnc/bukalapak.md"
+        },
+        {
+          "type": "item",
+          "title": "Indomaret",
+          "uri": "docs/voucher-tnc/indomaret.md"
+        },
+        {
+          "type": "item",
+          "title": "Tokopedia",
+          "uri": "docs/voucher-tnc/tokopedia.md"
+        },
+        {
+          "type": "item",
+          "title": "Transmart",
+          "uri": "docs/voucher-tnc/transmart.md"
+        }
+      ]
+    },
+    {
+      "type": "group",
       "title": "Core API",
       "items": [
         {
