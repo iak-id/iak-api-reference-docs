@@ -2,6 +2,10 @@
 
 IAK will send response to your callback URL to inform you about prepaid transaction you did before. There are only two possible response that IAK will send to your callback URL: **success/failed** response.
 
+<!-- theme: info -->
+
+> See [here](https://iak-api.stoplight.io/docs/developer-documentation/docs/security.md#callback-notification) how to secure your callback
+
 ## Production
 
 In production environment, IAK will send the response to your callback URL automatically. 
