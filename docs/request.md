@@ -11,22 +11,20 @@ type: tab
 title: Prepaid
 -->
 
-Version | Environment | Base URL 
----------|----------|---------
- v1 | Development | `https://testprepaid.mobilepulsa.net`
- v1 | Production | `https://api.mobilepulsa.net`
- v2 | Development | `https://prepaid.iak.dev`
- v2 | Production | `https://prepaid.iak.id`
+Environment | Base URL 
+----------|---------
+Development | Old: `https://testprepaid.mobilepulsa.net` <br> New: `https://prepaid.iak.dev`
+Production | Old: `https://api.mobilepulsa.net` <br> New: `https://prepaid.iak.id`
 
 <!--
 type: tab
 title: Postpaid
 -->
 
-Version | Environment | Base URL 
----------|----------|---------
- v1 | Development | `https://testpostpaid.mobilepulsa.net`
- v1 | Production | `https://mobilepulsa.net`
+Environment | Base URL 
+----------|---------
+Development | `https://testpostpaid.mobilepulsa.net`
+Production | `https://mobilepulsa.net`
 
 <!-- type: tab-end -->
 
