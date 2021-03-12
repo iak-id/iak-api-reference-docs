@@ -66,22 +66,22 @@
         {
           "type": "item",
           "title": "Bukalapak",
-          "uri": "docs/voucher-tnc/bukalapak.md"
+          "uri": "docs/prepaid v1 (legacy)/voucher-tnc/bukalapak.md"
         },
         {
           "type": "item",
           "title": "Indomaret",
-          "uri": "docs/voucher-tnc/indomaret.md"
+          "uri": "docs/prepaid v1 (legacy)/voucher-tnc/indomaret.md"
         },
         {
           "type": "item",
           "title": "Tokopedia",
-          "uri": "docs/voucher-tnc/tokopedia.md"
+          "uri": "docs/prepaid v1 (legacy)/voucher-tnc/tokopedia.md"
         },
         {
           "type": "item",
           "title": "Transmart",
-          "uri": "docs/voucher-tnc/transmart.md"
+          "uri": "docs/prepaid v1 (legacy)/voucher-tnc/transmart.md"
         }
       ]
     },
