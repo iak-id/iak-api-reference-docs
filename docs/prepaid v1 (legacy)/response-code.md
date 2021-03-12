@@ -1,3 +1,4 @@
-# response-code
+# Response Code
 
-The beginning of an awesome article...
+Below is all of response code for prepaid transaction.
+
