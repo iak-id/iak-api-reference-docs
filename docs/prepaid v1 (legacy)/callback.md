@@ -28,7 +28,7 @@ IAK will send below response to your callback URL.
 Field | Type | Description | Mandatory
 ---------|----------|--------- |--------
  ref_id | String | Your order number / reference ID (must unique) | Yes 
- status | String | Transaction status. Below is the list. <br> `0:PROCESS` `1: SUCCESS` `2:FAILED` | Yes
+ status | String | Transaction status. List of status: <br> `0:PROCESS` `1: SUCCESS` `2:FAILED` | Yes
  code | String | Product Code | Yes
  hp | String | Customer ID | Yes
  price | String | Product price | Yes
