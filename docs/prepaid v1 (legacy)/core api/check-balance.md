@@ -8,7 +8,7 @@ Method | Path
 ---------|----------
  POST | v1/legacy/index 
 
-## Request body
+## Request Body
 
 <!-- title: Request Attributes -->
 Attributes | Type | Description | Mandatory

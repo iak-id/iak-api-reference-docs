@@ -1,3 +1,161 @@
-# price-list
+# Price List
 
-The beginning of an awesome article...
+API to get pricelist of IAK prepaid products.
+
+## Path
+
+Method | Path 
+---------|----------
+ POST | v1/legacy/index/{type}/{operator}
+
+### Path Parameters
+
+<!-- title: Path Parameters -->
+Attributes | Type | Description | Mandatory
+---------|----------|---------|----------
+ type | String | Product type | No
+ operaotr | String | Product operator | No
+
+## Request Body
+
+<!-- title: Request Attributes -->
+Attributes | Type | Description | Mandatory
+---------|----------|---------|----------
+ commands | String | Value: `pricelist` | Yes
+ username | String | Your registered phone number | Yes
+ sign | String | Signature. Value: `md5(username+api_key+'bl')` | Yes
+ status | String | Product status. <br> List of status: **all, active, non-active** | No
+
+<!--
+type: tab
+title: JSON
+-->
+
+```json
+{
+  "commands" : "pricelist",
+  "username" : "123123123",
+  "sign"     : "6bc194c0d23c18a12f5d6919aa72bc30",
+  "status"   : "all"
+}
+```
+
+<!--
+type: tab
+title: XML
+-->
+
+```json
+<?xml version="1.0" ?>
+<mp>
+  <commands>pricelist</commands>
+  <username>123123123</username>
+  <sign>6bc194c0d23c18a12f5d6919aa72bc30</sign>
+  <status>all</status>
+</mp>
+```
+<!-- type: tab-end -->
+
+## Response
+
+<!-- title: Response Attributes -->
+Attributes | Type | Description | Mandatory
+---------|----------|---------|----------
+ pulsa_code | String | Product code | Yes
+ pulsa_op | String | Product description | Yes
+ pulsa_nominal | String | Product denomination | Yes
+ pulsa_price | Double | Product price | Yes
+ pulsa_type | String | Product type | Yes
+ masaaktif | String | Product aActive time period of reload (only applied for **pulsa and data**) | Yes
+
+<!--
+type: tab
+title: JSON
+-->
+
+```json
+{
+  "data": [
+    {
+      "pulsa_code": "alfamart100",
+      "pulsa_op": "Alfamart Voucher",
+      "pulsa_nominal": "Voucher Alfamart Rp 100.000",
+      "pulsa_price": 100000,
+      "pulsa_type": "voucher",
+      "masaaktif": "0",
+      "status": "active"
+    },
+    {
+      "pulsa_code": "altel10",
+      "pulsa_op": "Malaysia Topup",
+      "pulsa_nominal": "10",
+      "pulsa_price": 39750,
+      "pulsa_type": "malaysia",
+      "masaaktif": "0",
+      "status": "active"
+    },
+    {
+      "pulsa_code": "altel100",
+      "pulsa_op": "Malaysia Topup",
+      "pulsa_nominal": "100",
+      "pulsa_price": 397500,
+      "pulsa_type": "malaysia",
+      "masaaktif": "0",
+      "status": "active"
+    }
+  ]
+}
+```
+
+<!--
+type: tab
+title: XML
+-->
+
+```json
+<?xml version="1.0"?>
+<mp>
+  <pulsa>
+    <pulsa_code>hindosat10000</pulsa_code>
+    <pulsa_op>Indosat</pulsa_op>
+    <pulsa_nominal>10000</pulsa_nominal>
+    <pulsa_price>11000</pulsa_price>
+    <pulsa_type>pulsa</pulsa_type>
+    <masaaktif>15</masaaktif>
+    <status>active</status>
+  </pulsa>
+  <pulsa>
+    <pulsa_code>hindosat100000</pulsa_code>
+    <pulsa_op>Indosat</pulsa_op>
+    <pulsa_nominal>100000</pulsa_nominal>
+    <pulsa_price>100000</pulsa_price>
+    <pulsa_type>pulsa</pulsa_type>
+    <masaaktif>60</masaaktif>
+    <status>active</status>
+  <pulsa>
+    <pulsa_code>hindosat1000000</pulsa_code>
+    <pulsa_op>Indosat</pulsa_op>
+    <pulsa_nominal>1000000</pulsa_nominal>
+    <pulsa_price>950000</pulsa_price>
+    <pulsa_type>pulsa</pulsa_type>
+    <masaaktif>60</masaaktif>
+    <status>active</status>
+  </pulsa>
+<mp>
+```
+<!-- type: tab-end -->
+
+## Live Testing
+
+```json http
+{
+  "method": "POST",
+  "url": "https://testprepaid.mobilepulsa.net/v1/legacy/index",
+  "body": {
+    "commands": "pricelist",
+    "username": "{your username}",
+    "sign": "{your sign}",
+    "status": "all"
+  }
+}
+```
