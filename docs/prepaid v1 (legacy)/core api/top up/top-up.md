@@ -26,7 +26,7 @@ Attributes | Type | Description | Mandatory
  ref_id | String | Your order number / reference ID ( must unique ) | Yes
  hp | String | Customer ID | Yes
  pulsa_code | String | Product Code. You can get list of product code in [pricelist api](price-list.md) or from pricelist [here](https://iak.id/webapp/pricelist) | Yes
- sign | String | Signature. Value: `md5(username+api_key+hp)` | Yes
+ sign | String | Signature. Value: `md5(username+api_key+ref_id)` | Yes
 
 <!-- theme: info -->
 

@@ -38,6 +38,7 @@ Field | Type | Description | Mandatory
  balance | String | Final balance | Yes
  tr_id | String | IAK transaction ID | Yes
  rc | String | IAK response code. See [rc list](./response-code.md)| Yes
+ sign | String | md5(username+api_key+ref_id) | Yes
 
  ### Success Response Example
 
@@ -63,7 +64,8 @@ title: JSON
     "pin": "123456789",
     "balance": "996994749",
     "tr_id": "3487",
-    "rc": "00"
+    "rc": "00",
+    "sign": "96e1028f6beaa817ee3670a39c01c69d"
   }
 }
 ```
@@ -87,6 +89,7 @@ title: XML
   <balance>996994749</balance>
   <tr_id>3487</tr_id>
   <rc>00</rc>
+  <sign>96e1028f6beaa817ee3670a39c01c69d</sign>
 </mp>
 ```
 <!-- type: tab-end -->
@@ -110,7 +113,8 @@ title: JSON
     "sn": "123456789",
     "balance": "997061249",
     "tr_id": "3482",
-    "rc": "00"
+    "rc": "00",
+    "sign": "96e1028f6beaa817ee3670a39c01c69d"
   }
 }
 ```
@@ -133,6 +137,7 @@ title: XML
   <balance>997061249</balance>
   <tr_id>3482</tr_id>
   <rc>00</rc>
+  <sign>96e1028f6beaa817ee3670a39c01c69d</sign>
 </mp>
 ```
 <!-- type: tab-end -->
@@ -157,7 +162,8 @@ title: JSON
     "message": "FAILED",
     "balance": "997011249",
     "tr_id": "3486",
-    "rc": "07"
+    "rc": "07",
+    "sign": "96e1028f6beaa817ee3670a39c01c69d"
   }
 }
 ```
@@ -179,6 +185,7 @@ title: XML
   <balance>997011249</balance>
   <tr_id>3486</tr_id>
   <rc>07</rc>
+  <sign>96e1028f6beaa817ee3670a39c01c69d</sign>
 </mp>
 ```
 <!-- type: tab-end -->
