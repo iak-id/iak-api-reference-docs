@@ -48,5 +48,5 @@ To test production environment with postman collection, simply do the following 
 
 > Get you API key [here](https://developer.mobilepulsa.net/home)
 
-  2. In **Production** subfolder, send the request like in [How To Use](#how-to-use.md) **steps 4**
+  2. In **Production** subfolder, send the request like in [How To Use](#how-to-use) **steps 4**
   3. If you get **Invalid IP Address** error, [whitelist](https://developer.mobilepulsa.net/production/ip) your IP first.
