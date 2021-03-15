@@ -101,12 +101,12 @@
       "items": [
         {
           "type": "item",
-          "title": "Different between v1 and v2",
+          "title": "Version 1 Versus Version 2",
           "uri": "docs/prepaid v1 (legacy)/core api/v1-vs-v2.md"
         },
         {
           "type": "group",
-          "title": "v1",
+          "title": "Version 1",
           "items": [
             {
               "type": "item",
@@ -164,7 +164,7 @@
         },
         {
           "type": "group",
-          "title": "v2",
+          "title": "Version 2",
           "items": [
             {
               "type": "item",
