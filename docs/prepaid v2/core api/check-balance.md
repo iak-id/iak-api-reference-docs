@@ -86,7 +86,7 @@ title: XML
 ```json http
 {
   "method": "POST",
-  "url": "https://testprepaid.mobilepulsa.net/api/check-balance",
+  "url": "https://prepaid.iak.dev/api/check-balance",
   "body": {
     "username": "{your username}",
     "sign": "{your sign}",

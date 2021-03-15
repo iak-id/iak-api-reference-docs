@@ -69,7 +69,9 @@ Attributes | Type | Description | Mandatory
 ---------|----------|---------|----------
  username | String | Player username | Yes
  status | Double | List of status <br> `1:Success` `2:Failed` | Yes
- message | String | Inquiry game ID message | Yes
+ message | String | Message | Yes
+ rc | String | Response code. See [response code](../response-code.md) list | Yes
+
 
 <!--
 type: tab

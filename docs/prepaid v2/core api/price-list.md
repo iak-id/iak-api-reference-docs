@@ -67,6 +67,8 @@ Attributes | Type | Description | Mandatory
  active_period | String | Product aActive time period of reload (only applied for **pulsa and data**) | Yes
  status | String | Product status. <br> Value: `active`, `non active` | Yes
  icon_url| String | URL icon for each product | Yes
+ message | String | Message | Yes
+ rc | String | Response code. See [response code](../response-code.md) list | Yes
 
 <!--
 type: tab
@@ -163,7 +165,7 @@ title: XML
 ```json http
 {
   "method": "POST",
-  "url": "https://prepaid.iak.id/api/pricelist",
+  "url": "https://prepaid.iak.dev/api/pricelist",
   "body": {
     "username": "{your username}",
     "sign": "{your sign}",
