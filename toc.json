@@ -168,6 +168,11 @@
           "items": [
             {
               "type": "item",
+              "title": "Check Balance",
+              "uri": "docs/prepaid v2/core api/check-balance.md"
+            },
+            {
+              "type": "item",
               "title": "Pricelist",
               "uri": "docs/prepaid v2/core api/price-list.md"
             },
