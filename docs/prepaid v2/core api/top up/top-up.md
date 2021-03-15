@@ -6,7 +6,7 @@ API to top up prepaid products.
 
 > ### A thing to know
 >
-> 1. For the first time, top up will always response **processing**. IAK will send callback once the transaction become > success / failed. Learn more about callback [here](../../callback.md)
+> 1. For the first time, top up will always response **processing**. IAK will send callback once the transaction become > success / failed. Learn more about callback [here](../../prepaid%20v1%20(legacy)/callback.md)
 > 
 > 2. If you top up again with the same ref_id, then it we will not proceed the transaction but it will become check status. Learn more about check status [here](../check-status.md)
 
