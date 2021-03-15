@@ -13,7 +13,7 @@ Method | Path
 Use below test case in **development** environment only. 
 
 <!-- title: Test Case List -->
-game_code | hp | Response Message
+game_code | customer_id | Response Message
 ---------|----------|---------
  103 | 156378300\|8483 | SUCCESS
  Other than 103 | 156378300\|8483 | CODE NOT FOUND
@@ -26,7 +26,7 @@ Attributes | Type | Description | Mandatory
 ---------|----------|---------|----------
  username | String | Your registered phone number | Yes
  game_code | String | Game Code. See [here](../game-format-request.md#inquiry-game-id) for game_code list | Yes
- customer_id | String | Customer ID. See [here](../game-format-request.md#inquiry-game-id) for hp formula | Yes
+ customer_id | String | Customer ID. See [here](../game-format-request.md#inquiry-game-id) for customer_id formula | Yes
  sign | String | Signature. Value: `md5(username+api_key+game_code)` | Yes
 
 <!--

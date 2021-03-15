@@ -68,7 +68,7 @@ Attributes | Type | Description | Mandatory
  meter_no | String | Meter Number | Yes
  subscriber_id | String | Customer ID information | Yes
  name | String | Customer name | Yes
- segment_power | String | - | Yes
+ segment_power | String | Segment Power | Yes
  message | String | Message | Yes
  rc | String | Response code. See [response code](../response-code.md) list | Yes
 
