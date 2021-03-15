@@ -5,10 +5,8 @@ IAK prepaid API have 2 version. Actually the flow and process behind is still th
  | - |V1 | V2 |
  ---------|---------|----------
   Endpoint path | v1/legacy/index | api/{service-name}
- Request body | Can be seen in each docs segment | Can be seen in each docs segment
- Response body | Can be seen in each docs segment | Can be seen in each docs segment
-
+ Request & response body field | hp | customer_id
+ Request & response body field | all of pulsa keyword | product
+ Request & response body field (in [pricelist api](./price-list.md) only) | pulsa_op | product_description
+ Request & response body field (in [pricelist api](./price-list.md) only) | masaaktif | active_period
  
-<!-- theme: info -->
-
-> It is recomended to use version 2 
