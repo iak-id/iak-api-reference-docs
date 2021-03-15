@@ -21,7 +21,7 @@ pulsa500000 | 500000
 <!-- theme: info -->
 
 > Auto detect operator only applied can be applied with **pulsa** product type.
-> See details information for pulsa type in [api pricelist](../price-list.md).
+> See details information for pulsa_type in [api pricelist](../price-list.md).
 
 <!-- theme: info -->
 
