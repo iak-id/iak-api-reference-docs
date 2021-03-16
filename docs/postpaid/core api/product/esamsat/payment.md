@@ -65,6 +65,7 @@ response_code | String | Response code. See [response code](../../../response-co
 message | String | Message | Yes
 price | Double | Total price that must be paid (nominal + admin fee) | Yes
 selling_price | Double | Deducted balance | Yes
+balance | Double | Client remaining balance | Yes
 noref | String | Biller reference number (if exist) | No
 ref_id | String | Your order number / reference ID ( must unique ) | Yes
 desc | Object | Product description | Yes
