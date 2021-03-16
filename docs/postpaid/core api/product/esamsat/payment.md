@@ -210,7 +210,7 @@ title: XML
 {
   "method": "POST",
   "url": "https://testpostpaid.mobilepulsa.net/api/v1/bill/check",
-  "header": {
+  "headers": {
     "Content-Type": "application/json"
   },
   "body": {
