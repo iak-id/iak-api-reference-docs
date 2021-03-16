@@ -134,6 +134,9 @@ title: XML
 {
   "method": "POST",
   "url": "https://prepaid.iak.dev/api/top-up",
+  "headers": {
+    "Content-Type": "application/json"
+  },
   "body": {
     "username": "{your username}",
     "customer_id": "0817777215",

@@ -116,6 +116,9 @@ title: XML
 {
   "method": "POST",
   "url": "https://prepaid.iak.dev/api/inquiry-pln",
+  "headers": {
+    "Content-Type": "application/json"
+  },
   "body": {
     "username": "{your username}",
     "customer_id": "12345678901",

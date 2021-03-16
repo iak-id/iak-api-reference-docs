@@ -146,6 +146,9 @@ title: XML
 {
   "method": "POST",
   "url": "https://testpostpaid.mobilepulsa.net/api/v1/bill/check",
+  "headers": {
+    "Content-Type": "application/json"
+  },
   "body": {
     "commands": "pay-pasca",
     "username": "{your username}",

@@ -87,6 +87,9 @@ title: XML
 {
   "method": "POST",
   "url": "https://prepaid.iak.dev/api/check-balance",
+  "headers": {
+    "Content-Type": "application/json"
+  },
   "body": {
     "username": "{your username}",
     "sign": "{your sign}",

@@ -125,6 +125,9 @@ title: XML
 {
   "method": "POST",
   "url": "https://testprepaid.mobilepulsa.net/v1/legacy/index",
+  "headers": {
+    "Content-Type": "application/json"
+  },
   "body": {
     "commands": "game-server-list",
     "username": "{your username}",

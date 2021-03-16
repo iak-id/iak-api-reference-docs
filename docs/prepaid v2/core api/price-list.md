@@ -166,6 +166,9 @@ title: XML
 {
   "method": "POST",
   "url": "https://prepaid.iak.dev/api/pricelist",
+  "headers": {
+    "Content-Type": "application/json"
+  },
   "body": {
     "username": "{your username}",
     "sign": "{your sign}",

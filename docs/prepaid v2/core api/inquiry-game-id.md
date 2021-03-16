@@ -107,6 +107,9 @@ title: XML
 {
   "method": "POST",
   "url": "https://prepaid.iak.dev/api/inquiry-game",
+  "headers": {
+    "Content-Type": "application/json"
+  },
   "body": {
     "username": "{your username}",
     "game_code": "103",

@@ -158,6 +158,9 @@ title: XML
 {
   "method": "POST",
   "url": "https://prepaid.iak.dev/api/check-status",
+  "headers": {
+    "Content-Type": "application/json"
+  },
   "body": {
     "username": "{your username}",
     "ref_id": "order001",
