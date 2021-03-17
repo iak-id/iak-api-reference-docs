@@ -87,10 +87,10 @@ message | String | Message | Yes
 price | Double | Total price that must be paid (nominal + admin fee) | Yes
 selling_price | Double | Deducted balance | Yes
 desc | Object | Product description | Yes
-desc.**kode_cabang** | String | Code of BPJS branch | No
-desc.**nama_cabang** | String | Name of BPJS branch | No
-desc.**sisa_pembayaran** | String | Residual payment | No
-desc.**jumlah_peserta** | String | BPJS participant | No
+desc.**kode_cabang** | String | Code of BPJS branch | Yes
+desc.**nama_cabang** | String | Name of BPJS branch | Yes
+desc.**sisa_pembayaran** | String | Residual payment | Yes
+desc.**jumlah_peserta** | String | BPJS participant | Yes
 
 <!--
 type: tab
