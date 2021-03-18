@@ -39,9 +39,9 @@ title: JSON
 
 ```json
 {
-  "commands"	: "inq-pasca",
-  "username"	: "123123123",
-  "code"	    : "TVBIG",
+  "commands"  : "inq-pasca",
+  "username"  : "123123123",
+  "code"      : "TVBIG",
   "hp"        : "1072161401",
   "ref_id"    : "09128374656",
   "sign"      : "15011812f64ce888747de76059aa0b20"
@@ -97,26 +97,26 @@ title: JSON
 ```json
 {
   "data": {
-  "tr_id": 9732793,
-  "code": "TVBIG",
-  "hp": "1072161401",
-  "tr_name": "Mr. syahrun as",
-  "period": "",
-  "nominal": 138499,
-  "admin": 0,
-  "ref_id": "09128374656",
-  "response_code": "00",
-  "message": "INQUIRY SUCCESS",
-  "price": 138499,
-  "selling_price": 137399,
-  "desc": {
-    "bill_quantity": "1",
-    "product_category": "",
-    "ppn": 0,
-    "tagihan": {
-      "detail": []
+    "tr_id": 9732793,
+    "code": "TVBIG",
+    "hp": "1072161401",
+    "tr_name": "Mr. syahrun as",
+    "period": "",
+    "nominal": 138499,
+    "admin": 0,
+    "ref_id": "09128374656",
+    "response_code": "00",
+    "message": "INQUIRY SUCCESS",
+    "price": 138499,
+    "selling_price": 137399,
+    "desc": {
+      "bill_quantity": "1",
+      "product_category": "",
+      "ppn": 0,
+      "tagihan": {
+        "detail": []
+      }
     }
-  }
   },
   "meta": []
 }
