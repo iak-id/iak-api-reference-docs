@@ -81,11 +81,11 @@ desc.**biaya_pokok** | Object | Basic fee | Yes
 desc.biaya_pokok.**BBN** | String | Bea balik nama fee  | Yes
 desc.biaya_pokok.**PKB** | String | Pajak kendaraan bermotor fee | Yes
 desc.biaya_pokok.**SWD** | String | Sumbangan wajib dana kecelakaan lalu lintas fee | Yes
-desc.**biaya_denda** | String | Penalty fee | Yes
+desc.**biaya_denda** | Object | Penalty fee | Yes
 desc.biaya_denda.**BBN** | String | Bea balik nama penalty fee  | Yes
 desc.biaya_denda.**PKB** | String | Pajak kendaraan bermotor penalty fee | Yes
 desc.biaya_denda.**SWD** | String | Sumbangan wajib dana kecelakaan lalu lintas penalty fee | Yes
-desc.**biaya_admin** | String | Admin fee | Yes
+desc.**biaya_admin** | Object | Admin fee | Yes
 desc.biaya_admin.**stnk** | String | Surat tanda nomor kendaraan admin fee  | Yes
 desc.biaya_admin.**tnkb** | String | Tanda nomor kendaraan bermotor admin fee | Yes
 desc.**biaya_parkir_pokok** | String | Main parking fee | Yes
