@@ -474,7 +474,7 @@ title: XML
 ```json http
 {
   "method": "POST",
-  "url": "https://testprepaid.mobilepulsa.net/v1/legacy/index",
+  "url": "https://testpostpaid.mobilepulsa.net/api/v1/bill/check",
   "headers": {
     "Content-Type": "application/json"
   },

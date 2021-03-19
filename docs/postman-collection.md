@@ -9,7 +9,7 @@ Below is step by step how to use postman collection that IAK already provides.
   1. If you don't have postman, download [here](https://www.postman.com/downloads).
   2. Click **Run in Postman** button to import the collection.
 
-  [![Run in Postman](https://run.pstmn.io/button.svg)](https://app.getpostman.com/run-collection/8c14c735dec87d536dab)
+  [![Run in Postman](https://run.pstmn.io/button.svg)](https://app.getpostman.com/run-collection/1f6f2b4bdd88c351bbcc)
 
   3. In the postman, click **IAK API** folder on left sidebar and choose **Variables**. 
   
