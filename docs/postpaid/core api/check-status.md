@@ -62,7 +62,7 @@ period | String | Bill period | Yes
 nominal | Double | Bill nominal | Yes
 admin | Double | Admin fee | Yes
 status | Integer | Transaction status. List of status : <br> `0: Payment request haven't been receieved` `1:Payment success` `2:Payment failed` `3:Payment is being process` | Yes
-response_code | String | Response code. See [response code](../../../response-code.md) list | Yes
+response_code | String | Response code. See [response code](../response-code.md) list | Yes
 message | String | Message | Yes
 price | Double | Total price that must be paid (nominal + admin fee) | Yes
 selling_price | Double | Deducted balance | Yes
