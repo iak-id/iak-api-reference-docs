@@ -43,7 +43,7 @@ List of operator:
   - arena_of_valor
   - bleach_mobile_3d
   - call_of_duty_mobile
-  - `dragon_nest_m_-_sea`
+  - dragon_nest\_m\_-_sea
   - era_of_celestials
   - free_fire
   - battlenet_sea

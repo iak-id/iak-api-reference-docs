@@ -2,7 +2,7 @@
 
 ## Inquiry Game ID
 
-Below is available game code for [inquiry game id](./core api/inquiry-game-id.md)
+Below is available game code for [inquiry game id](./core%20api/inquiry-game-id.md)
 
 <!--
 type: tab
@@ -89,7 +89,7 @@ title: Dragon Nest
 
 ## Inquiry Game Server
 
-Below is available game code for [inquiry game server](./core api/inquiry-game-server.md)
+Below is available game code for [inquiry game server](./core%20api/inquiry-game-server.md)
 
 <!--
 type: tab
