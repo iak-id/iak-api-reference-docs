@@ -18,11 +18,11 @@ IAK send response of the updated status to your [callback URL]()
 
 ### Mobile Topup and Data Package Flow
 
-![Mobile Topup and Data Package Flow](../../assets/images/prepaid-flow/mobile-topup-and-data-flow.jpg)
+![Mobile Topup and Data Package Flow](../../assets/images/prepaid-flow/mobile-topup-and-data-flow.png)
 
 ### PLN Prepaid Flow
 
-![PLN Prepaid Flow](../../assets/images/prepaid-flow/pln-flow.jpg)
+![PLN Prepaid Flow](../../assets/images/prepaid-flow/pln-flow.png)
 
 <!-- theme: info -->
 
@@ -32,7 +32,7 @@ IAK send response of the updated status to your [callback URL]()
 
 ### Games Flow
 
-![Games Flow](../../assets/images/prepaid-flow/games-flow.jpg)
+![Games Flow](../../assets/images/prepaid-flow/games-flow.png)
 
 <!-- theme: info -->
 
@@ -44,4 +44,4 @@ IAK send response of the updated status to your [callback URL]()
 
 If you don't want to use callback, you must call check status API to get the updated status.
 
-![Flow tiwhout Callback](../../assets/images/prepaid-flow/without-callback-flow.jpg)
+![Flow tiwhout Callback](../../assets/images/prepaid-flow/without-callback-flow.png)
