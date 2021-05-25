@@ -10,13 +10,13 @@ IAK will send response to your callback URL to inform you about prepaid transact
 
 In production environment, IAK will send the response to your callback URL automatically. 
 
-Set your production callback URL [here](https://developer.mobilepulsa.net/production/ip)
+Set your production callback URL [here](https://developer.iak.id/prod-setting)
 
 ## Development
 
 In development environment, IAK don't send response automatically to your callback URL. You can simulate the response to your callback URL through sandbox report. 
 
-Set your production callback URL [here](https://developer.mobilepulsa.net/development)
+Set your development callback URL [here](https://developer.iak.id/dev-setting)
 
 Learn more about [sandbox report](https://docs.iak.id/docs/developer-documentation/docs/integration/sandbox-report.md)
 

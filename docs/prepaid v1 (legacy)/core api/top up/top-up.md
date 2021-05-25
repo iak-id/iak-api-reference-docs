@@ -36,7 +36,8 @@ Attributes | Type | Description | Mandatory
 > 1. **pulsa**: Phone Number / MSISDN
 > 2. **data**: Phone Number / MSISDN
 > 3. **pln**: Meter Number (11 digits)
-> 4. **games**: MSISDN (we don't send SMS). See [here] for example.
+> 4. **games**: MSISDN for games voucher (we don't send SMS). See [here](../../game-format-request.md#inquiry-game-id) for example
+> 5. **subcsriber number** for tv
 
 <!--
 type: tab
