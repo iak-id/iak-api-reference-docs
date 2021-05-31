@@ -23,7 +23,7 @@ Below is step by step how to use postman collection that IAK already provides.
 
 <!-- theme: info -->
 
-> Get you API key [here](https://developer.mobilepulsa.net/home)
+> Get your API key [here](https://developer.iak.id/access-key)
   
   4. Lets try to send a request. 
   
@@ -46,7 +46,7 @@ To test production environment with postman collection, simply do the following 
 
 <!-- theme: info -->
 
-> Get you API key [here](https://developer.mobilepulsa.net/home)
+> Get your API key [here](https://developer.iak.id/access-key)
 
   2. In **Production** subfolder, send the request like in [How To Use](#how-to-use) **steps 4**
-  3. If you get **Invalid IP Address** error, [whitelist](https://developer.mobilepulsa.net/production/ip) your IP first.
+  3. If you get **Invalid IP Address** error, [whitelist](https://developer.iak.id/prod-setting) your IP first.
