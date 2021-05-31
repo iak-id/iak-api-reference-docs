@@ -13,8 +13,8 @@ Method | Path
 <!-- title: Path Parameters -->
 Attributes | Type | Description | Mandatory
 ---------|----------|---------|----------
- type | String | Product type. See [here](../product-type-and-operator.md) for product type list | No
- operator | String | Product operator. See [here](../product-type-and-operator.md) for product operator list | No
+ type | String | Product type. See [here](../../product-type.md) for product type list | No
+ operator | String | Product operator. See [here](../../product-type.md) for product operator list | No
 
 ## Request Body
 

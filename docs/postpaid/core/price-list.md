@@ -89,7 +89,7 @@ Attributes | Type | Description | Mandatory
  status | Integer | Product status. <br> Value: 1=`active`, 4=`non active` | Yes
  fee | Double | Admin fee | Yes
  komisi | Double | Commision to client | Yes
- type | String | Product type. See [here](#path-parameter) for available type | Yes
+ type | String | Product type. See [here](#path-parameters) for available type | Yes
  province | String | 34 Provinces in Indonesia, this field only for PDAM type | No
 
 <!--

@@ -25,7 +25,7 @@ game_code | Response Message | Description
 Attributes | Type | Description | Mandatory
 ---------|----------|---------|----------
  username | String | Your registered phone number | Yes
- game_code | String | Game Code. See [here](../game-format-request.md#inquiry-game-server) for game_code list | Yes
+ game_code | String | Game Code. See [here](../../../game-format.md#inquiry-game-server) for game_code list | Yes
  sign | String | Signature. Value: `md5(username+api_key+game_code)` | Yes
 
 <!--
@@ -66,7 +66,7 @@ Attributes | Type | Description | Mandatory
  servers.**value** | String | Server ID | Yes
  status | Double | List of status <br> `1:Success` `2:Failed` | Yes
  message | String | Message | Yes
- rc | String | Response code. See [response code](../response-code.md) list | Yes
+ rc | String | Response code. See [response code](../../../response-code.md) list | Yes
 
 <!--
 type: tab

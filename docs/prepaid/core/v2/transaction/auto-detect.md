@@ -25,7 +25,7 @@ pulsa500000 | 500000
 
 <!-- theme: info -->
 
-> Product code will automatically detect the operator in customer_id field. See operator [prefix list](../prefix-list.md) for auto detect operator.
+> Product code will automatically detect the operator in customer_id field. See operator [prefix list](../../../prefix-list.md) for auto detect operator.
 
 <!-- theme: info -->
 

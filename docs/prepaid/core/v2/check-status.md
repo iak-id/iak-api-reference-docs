@@ -56,11 +56,11 @@ product_code | String | Product Code | Yes
 customer_id| String | Customer ID | Yes
 price | Double | Product price | Yes
 message | String | Message | Yes
-sn | String | Serial Number (**only appear when status is success**). See [here](../sn-format.md) for SN format | No
+sn | String | Serial Number (**only appear when status is success**). See [here](../../sn-format.md) for SN format | No
 pin | String | Pin (**only appear in games product**) | No
 balance | Double | Final Balance | Yes
 tr_id | Integer | Transaction ID | Yes
-rc | String | Response code. See [response code](../response-code.md) list | Yes
+rc | String | Response code. See [response code](../../response-code.md) list | Yes
 
 ### Success Response Example
 

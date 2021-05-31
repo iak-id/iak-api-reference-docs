@@ -4,7 +4,7 @@ IAK will send response to your callback URL to inform you about prepaid transact
 
 <!-- theme: info -->
 
-> See [here](https://iak-api.stoplight.io/docs/developer-documentation/docs/security.md#callback-notification) how to secure your callback
+> See [here](https://api.iak.id/docs/developer/docs/security.md#callback-notification) how to secure your callback
 
 ## Production
 
@@ -18,13 +18,13 @@ In development environment, IAK don't send response automatically to your callba
 
 Set your development callback URL [here](https://developer.iak.id/dev-setting)
 
-Learn more about [sandbox report](https://docs.iak.id/docs/developer-documentation/docs/integration/sandbox-report.md)
+Learn more about [sandbox report](https://api.iak.id/docs/developer/docs/integration/sandbox-report.md)
 
 ## Response parameter
 
 IAK will send below response to your callback URL for both version 1 and version 2. 
 
-See the different between version 1 and 2 [here](./core%20api/v1-vs-v2.md)
+See the different between version 1 and 2 [here](core/v1-vs-v2.md)
 
 <!--
 type: tab

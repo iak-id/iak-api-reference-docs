@@ -49,7 +49,7 @@ Attributes | Type | Description | Mandatory
 ---------|----------|---------|----------
  balance | Double | Your balance | Yes
  message | String | Message | Yes
- rc | String | Response code. See [response code](../response-code.md) list | Yes
+ rc | String | Response code. See [response code](../../response-code.md) list | Yes
 
 <!--
 type: tab

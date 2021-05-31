@@ -13,8 +13,8 @@ Method | Path
 <!-- title: Path Parameters -->
 Attributes | Type | Description | Mandatory
 ---------|----------|---------|----------
- type | String | Product type. See [here](../product-type-and-operator.md) for product type list | No
- operator | String | Product operator. See [here](../product-type-and-operator.md) for product operator list | No
+ type | String | Product type. See [here](../../product-type.md) for product type list | No
+ operator | String | Product operator. See [here](../../product-type.md) for product operator list | No
 
 ## Request Body
 
@@ -68,7 +68,7 @@ Attributes | Type | Description | Mandatory
  status | String | Product status. <br> Value: `active`, `non active` | Yes
  icon_url| String | URL icon for each product | Yes
  message | String | Message | Yes
- rc | String | Response code. See [response code](../response-code.md) list | Yes
+ rc | String | Response code. See [response code](../../response-code.md) list | Yes
 
 <!--
 type: tab

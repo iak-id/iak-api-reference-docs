@@ -25,8 +25,8 @@ game_code | customer_id | Response Message
 Attributes | Type | Description | Mandatory
 ---------|----------|---------|----------
  username | String | Your registered phone number | Yes
- game_code | String | Game Code. See [here](../game-format-request.md#inquiry-game-id) for game_code list | Yes
- customer_id | String | Customer ID. See [here](../game-format-request.md#inquiry-game-id) for customer_id formula | Yes
+ game_code | String | Game Code. See [here](../../../game-format.md#inquiry-game-id) for game_code list | Yes
+ customer_id | String | Customer ID. See [here](../../../game-format.md#inquiry-game-id) for customer_id formula | Yes
  sign | String | Signature. Value: `md5(username+api_key+game_code)` | Yes
 
 <!--
@@ -67,7 +67,7 @@ Attributes | Type | Description | Mandatory
  username | String | Player username | Yes
  status | Double | List of status <br> `1:Success` `2:Failed` | Yes
  message | String | Message | Yes
- rc | String | Response code. See [response code](../response-code.md) list | Yes
+ rc | String | Response code. See [response code](../../../response-code.md) list | Yes
 
 <!--
 type: tab

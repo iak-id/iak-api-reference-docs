@@ -53,7 +53,7 @@ Content-Type: application/xml
 
 ## Authentication
 
-IAK API use **md5** hash to authenticate the requests. You need to put the **sign** key as request body and combination of md5 hash as value. The combination include username, [api key](../../developer-documentation/docs/integration/api-key.md), and additional.
+IAK API use **md5** hash to authenticate the requests. You need to put the **sign** key as request body and combination of md5 hash as value. The combination include username, [api key](https://api.iak.id/docs/developer/docs/integration/api-key.md), and additional.
 
 ```javascript
 sign: md5({username}+{api_key}+{additional})

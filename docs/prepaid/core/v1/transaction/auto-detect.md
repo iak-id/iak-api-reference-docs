@@ -25,7 +25,7 @@ pulsa500000 | 500000
 
 <!-- theme: info -->
 
-> Pulsa code will automatically detect the operator in hp field. See operator [prefix list](../prefix-list.md) for auto detect operator.
+> Pulsa code will automatically detect the operator in hp field. See operator [prefix list](../../../prefix-list.md) for auto detect operator.
 
 <!-- theme: info -->
 

@@ -67,7 +67,7 @@ Attributes | Type | Description | Mandatory
  name | String | Customer name | Yes
  segment_power | String | Segment Power | Yes
  message | String | Message | Yes
- rc | String | Response code. See [response code](../response-code.md) list | Yes
+ rc | String | Response code. See [response code](../../../response-code.md) list | Yes
 
 
 <!--

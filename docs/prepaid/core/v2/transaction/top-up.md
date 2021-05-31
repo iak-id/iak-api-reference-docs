@@ -6,7 +6,7 @@ API to top up prepaid products.
 
 > ### A thing to know
 >
-> 1. For the first time, top up will always response **processing**. IAK will send callback once the transaction become > success / failed. Learn more about callback [here](../../../prepaid%20v1%20(legacy)/callback.md)
+> 1. For the first time, top up will always response **processing**. IAK will send callback once the transaction become > success / failed. Learn more about callback [here](../../../callback.md)
 > 
 > 2. If you top up again with the same ref_id, then it we will not proceed the transaction but it will become check status. Learn more about check status [here](../check-status.md)
 
@@ -24,7 +24,7 @@ Attributes | Type | Description | Mandatory
  username | String | Your registered phone number | Yes
  ref_id | String | Your order number / reference ID ( must unique ) | Yes
  customer_id | String | Customer ID | Yes
- product_code | String | Product Code. You can get list of product code in [pricelist api](price-list.md) or from pricelist [here](https://iak.id/webapp/pricelist) | Yes
+ product_code | String | Product Code. You can get list of product code in [pricelist api](../price-list.md) or from pricelist [here](https://iak.id/webapp/pricelist) | Yes
  sign | String | Signature. Value: `md5(username+api_key+ref_id)` | Yes
 
 <!-- theme: info -->
@@ -35,7 +35,7 @@ Attributes | Type | Description | Mandatory
 > 1. **pulsa**: Phone Number / MSISDN
 > 2. **data**: Phone Number / MSISDN
 > 3. **pln**: Meter Number (11 digits)
-> 4. **games**: MSISDN (we don't send SMS). See [here] for example.
+> 4. **games**: MSISDN for games voucher (we don't send SMS). See [here](../../../game-format.md#inquiry-game-id) for example
 
 <!--
 type: tab
@@ -84,7 +84,7 @@ ref_id | String | Your order number / reference ID ( must unique ) | Yes
  message | String | Message | Yes
  balance | Double | Final Balance | Yes
  tr_id | Integer | Transaction ID | Yes
- rc | String | Response code. See [response code](../response-code.md) list | Yes
+ rc | String | Response code. See [response code](../../../response-code.md) list | Yes
 
 <!--
 type: tab

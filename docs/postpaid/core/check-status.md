@@ -27,8 +27,8 @@ title: JSON
 {
   "commands" : "checkstatus",
   "username" : "123123123",
-  "sign"     : "6bc194c0d23c18a12f5d6919aa72bc30",
-  "status"   : "all"
+  "ref_id"   : "091283746520",
+  "sign"     : "6bc194c0d23c18a12f5d6919aa72bc30"
 }
 ```
 
@@ -42,8 +42,8 @@ title: XML
 <mp>
   <commands>checkstatus</commands>
   <username>123123123</username>
+  <ref_id>091283746520</ref_id>
   <sign>6bc194c0d23c18a12f5d6919aa72bc30</sign>
-  <status>all</status>
 </mp>
 ```
 <!-- type: tab-end -->
