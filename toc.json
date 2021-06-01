@@ -146,12 +146,12 @@
                 {
                   "type": "item",
                   "title": "Top Up",
-                  "uri": "docs/prepaid/core/v1/trancaction/top-up.md"
+                  "uri": "docs/prepaid/core/v1/transaction/top-up.md"
                 },
                 {
                   "type": "item",
                   "title": "Auto Detect Operator",
-                  "uri": "docs/prepaid/core/v1/trancaction/auto-detect.md"
+                  "uri": "docs/prepaid/core/v1/transaction/auto-detect.md"
                 }
               ]
             },
