@@ -4,7 +4,7 @@ IAK will send response to your callback URL to inform you about prepaid transact
 
 <!-- theme: info -->
 
-> See [here](https://api.iak.id/docs/developer/docs/security.md#callback-notification) how to secure your callback
+> See [here](https://api.iak.id/docs/platform/docs/security.md#callback-notification) how to secure your callback
 
 ## Production
 
@@ -18,7 +18,7 @@ In development environment, IAK don't send response automatically to your callba
 
 Set your development callback URL [here](https://developer.iak.id/dev-setting)
 
-Learn more about [sandbox report](https://api.iak.id/docs/developer/docs/integration/sandbox-report.md)
+Learn more about [sandbox report](https://api.iak.id/docs/platform/docs/integration/sandbox-report.md)
 
 ## Response parameter
 
