@@ -6,12 +6,12 @@ To make request into IAK API, it is the same way as make request to other **REST
 
 IAK provide different base url for prepaid and postpaid product. Below is listed IAK base URL for each version.
 
+There are 2 types of prepaid base URL: **old and new**. There is no difference between old and new URL, but it is recomended to use new URL.
+
 <!--
 type: tab
 title: Prepaid
 -->
-
-There are 2 types of prepaid base URL: **old and new**. There is no difference between old and new URL, but it is recomended to use new URL.
 
 Environment | Base URL 
 ----------|---------
