@@ -2,7 +2,7 @@
 
 ## Inquiry Game ID
 
-Below is available game code for [inquiry game id](./core/inquiry/v2/game-id.md)
+Below is available game code for [inquiry game id](./core/v2/inquiry/game-id.md)
 
 <!--
 type: tab
