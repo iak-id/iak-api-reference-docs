@@ -4,126 +4,39 @@
 
 Below is available game code for [inquiry game id](./core/inquiry/v2/game-id.md)
 
-<!--
-type: tab
-title: Mobile Legend
--->
 
-  **game_code**: `103`
-
-  **hp**: `{userid}|{zoneid}`. Where userid = User ID and zoneid = Zone ID 
-  
-<!--
-type: tab
-title: Ragnarok M: Eternal Love
--->
-
-  **game_code**: `127`
-
-  **hp**: `{userid}|eternal`. Where userid = Player ID 
+Name | **game_code** | **hp** format
+---------|----------|---------
+ Mobile Legend | 103 | {userid}\|{zoneid}
+ Ragnarok | 127 | {userid}\|{serverid}
+ Point Blank | 130 | {userid}
+ Free Fire | 135 | {userid}
+ Speed Drifters | 136 | {userid}
+ Arena of Valor | 139 | {userid}
+ Bleach Mobile 3D | 140 | {rolename}\|{userid}\|{serverid}
+ Era of Celestial | 141 | {userid}\|{serverid}
+ Dragon Nest | 142 | {rolename}\|{serverid}
+ Marvel Super War | 150 | {userid}
+ Light of Thel:Glory of Cepheus | 152 | {userid}
+ Lords Mobile | 153 | {userid}
+ Life After | 154 | {userid}\|{serverid}
+ Higgs Domino | 168 | {userid}
  
-<!--
-type: tab
-title: Ragnarok M: Midnight Party
--->
+ <!-- theme: info -->
 
-  **game_code**: `127`
-
-  **hp**: `{userid}|midnight`. Where userid = Player ID 
-
-<!--
-type: tab
-title: Free Fire
--->
-
-  **game_code**: `135`
-
-  **hp**: `{userid}`. Where userid = Player ID 
-
-<!--
-type: tab
-title: Speed Drifters
--->
-
-  **game_code**: `136`
-
-  **hp**: `{userid}`. Where userid = Player ID 
-
-<!--
-type: tab
-title: Arena of Valor
--->
-
-  **game_code**: `139`
-
-  **hp**: `{userid}`. Where userid = Player ID 
-
-<!--
-type: tab
-title: Bleach Mobile 3D
--->
-
-  **game_code**: `140`
-
-  **hp**: `{rolename}|{userid}|{serverid}`. Where rolename = Player Name, userid = Player ID, serverid = Server ID 
-
-<!--
-type: tab
-title: Era of Celestials
--->
-
-  **game_code**: `141`
-
-  **hp**: `{rolename}|{userid}|{serverid}`. Where rolename = Player Name, userid = Player ID, serverid = Server ID 
-
-<!--
-type: tab
-title: Dragon Nest
--->
-
-  **game_code**: `142`
-
-  **hp**: `{rolename}|{serverid}`. Where rolename = Player Name, serverid = Server ID 
-
-<!-- type: tab-end -->
+> - **userid** = User ID 
+> - **zoneid** = Zone ID
+> - **rolename** = Player name
+> - **serverid** = Server ID. See [here](#inquiry-game-server) for server id.
 
 ## Inquiry Game Server
 
 Below is available game code for [inquiry game server](./core/V2/inquiry/game-server.md)
 
-<!--
-type: tab
-title: Mobile Legend
--->
-
-  **game_code**: `103`
-
-<!--
-type: tab
-title: Ragnarok M
--->
-
-  **game_code**: `127`
-
-<!--
-type: tab
-title: Bleach Mobile 3D
--->
-
-  **game_code**: `140`
-
-<!--
-type: tab
-title: Era of Celestials
--->
-
-  **game_code**: `141`
-
-<!--
-type: tab
-title: Dragon Nest
--->
-
-  **game_code**: `142`
-
-<!-- type: tab-end -->
+Name | **game_code**
+---------|----------
+ Mobile Legend | 103
+ Ragnarok | 127
+ Bleach Mobile 3D | 140
+ Era of Celestials | 141
+ Dragon Nest | 142
