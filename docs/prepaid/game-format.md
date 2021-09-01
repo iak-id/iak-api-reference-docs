@@ -1,6 +1,6 @@
 # Game Format Request
 
-## Inquiry Game ID
+## Game ID
 
 Below is available game code for [inquiry game id](./core/v2/inquiry/game-id.md)
 
@@ -29,7 +29,7 @@ Name | **game_code** | **hp** format
 > - **rolename** = Player name
 > - **serverid** = Server ID. See [here](#inquiry-game-server) for server id.
 
-## Inquiry Game Server
+## Game Server
 
 Below is available game code for [inquiry game server](./core/V2/inquiry/game-server.md)
 

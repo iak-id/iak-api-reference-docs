@@ -26,8 +26,8 @@ Attributes | Type | Description | Mandatory
 ---------|----------|---------|----------
  commands | String | Value: `check-game-id` | Yes
  username | String | Your registered phone number | Yes
- game_code | String | Game Code. See [here](../../../game-format.md#inquiry-game-id) for game_code list | Yes
- hp | String | Customer ID. See [here](../../../game-format.md#inquiry-game-id) for hp formula | Yes
+ game_code | String | Game Code. See [here](../../../game-format.md#game-id) for game_code list | Yes
+ hp | String | Customer ID. See [here](../../../game-format.md#game-id) for hp formula | Yes
  sign | String | Signature. Value: `md5(username+api_key+game_code)` | Yes
 
 <!--

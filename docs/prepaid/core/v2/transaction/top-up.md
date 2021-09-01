@@ -31,11 +31,11 @@ Attributes | Type | Description | Mandatory
 
 > ### A thing to know
 >
-> Here is the customer ID for each product type: 
+> Here is the **customer_id** for each product type: 
 > 1. **pulsa**: Phone Number / MSISDN
 > 2. **data**: Phone Number / MSISDN
 > 3. **pln**: Meter Number (11 digits)
-> 4. **games**: MSISDN for games voucher (we don't send SMS). See [here](../../../game-format.md#inquiry-game-id) for example
+> 4. **games**: Phone Number for games voucher (we don't send SMS) / Game ID for direct topup. See [here](../../../game-format.md#inquiry-game-id) for direct topup Game ID.
 
 <!--
 type: tab
