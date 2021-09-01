@@ -31,7 +31,7 @@ Name | **game_code** | **hp** format
 
 ## Game Server
 
-Below is available game code for [inquiry game server](./core/V2/inquiry/game-server.md)
+Below is available game code for [inquiry game server](./core/v2/inquiry/game-server.md)
 
 Name | **game_code**
 ---------|----------
