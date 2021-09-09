@@ -189,25 +189,8 @@ title: voucher
 List of operator:
 
   - alfamart_voucher
-  - bakmi_gm
-  - blibli.com
-  - boga
-  - breadlife
-  - bukalapak
   - transmart_carrefour
-  - ct_corp
-  - grab_gifts
-  - haagen_dazs
   - indomaret_voucher
-  - kfc
-  - lotteria
-  - mcdonald's
-  - metrox
-  - nanny's_pavillon
-  - ricebowl
-  - sharetea
   - tokopedia
-  - ultra_voucher
-  - warung_tekko
 
 <!-- type: tab-end -->
