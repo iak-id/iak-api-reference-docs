@@ -16,11 +16,13 @@ Name | **game_code** | **hp** format
  Bleach Mobile 3D | 140 | {rolename}\|{userid}\|{serverid}
  Era of Celestial | 141 | {userid}\|{serverid}
  Dragon Nest | 142 | {rolename}\|{serverid}
+ Call of Duty | 146 | {userid}
  Marvel Super War | 150 | {userid}
  Light of Thel:Glory of Cepheus | 152 | {userid}
  Lords Mobile | 153 | {userid}
  Life After | 154 | {userid}\|{serverid}
  Higgs Domino | 168 | {userid}
+ Genshin Impact | 172 | {userid}\|{serverid}
  
  <!-- theme: info -->
 
@@ -40,3 +42,4 @@ Name | **game_code**
  Bleach Mobile 3D | 140
  Era of Celestials | 141
  Dragon Nest | 142
+ Genshin Impact | 172
