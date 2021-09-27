@@ -14,7 +14,7 @@ Name | **game_code** | **hp** format
  Speed Drifters | 136 | {userid}
  Arena of Valor | 139 | {userid}
  Bleach Mobile 3D | 140 | {rolename}\|{userid}\|{serverid}
- Era of Celestial | 141 | {userid}\|{serverid}
+ Era of Celestial | 141 | {rolename}\|{userid}\|{serverid}
  Dragon Nest | 142 | {rolename}\|{serverid}
  Call of Duty | 146 | {userid}
  Marvel Super War | 150 | {userid}
