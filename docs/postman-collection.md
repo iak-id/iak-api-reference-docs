@@ -25,7 +25,11 @@ Below is step by step how to use postman collection that IAK already provides.
 
 > Get your API key [here](https://developer.iak.id/access-key)
   
-  4. Lets try to send a request. 
+  4. After set the **Variables**, don't forget to **save**.
+
+  ![Save Postman Collection](../assets/images/postman-collection/save.png)
+
+  5. Lets try to send a request. 
   
 ![Test Request](../assets/images/postman-collection/test.png)
 
@@ -48,5 +52,5 @@ To test production environment with postman collection, simply do the following 
 
 > Get your API key [here](https://developer.iak.id/access-key)
 
-  2. In **Production** subfolder, send the request like in [How To Use](#how-to-use) **steps 4**
+  2. In **Production** subfolder, send the request like in [How To Use](#how-to-use) **steps 5**
   3. If you get **Invalid IP Address** error, [whitelist](https://developer.iak.id/prod-setting) your IP first.
