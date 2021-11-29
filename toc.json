@@ -177,6 +177,11 @@
               "uri": "docs/prepaid/core/v2/price-list.md"
             },
             {
+              "type": "item",
+              "title": "Check Operator Prefix",
+              "uri": "docs/prepaid/core/v2/check-operator.md"
+            },
+            {
               "type": "group",
               "title": "Inquiry",
               "items": [
