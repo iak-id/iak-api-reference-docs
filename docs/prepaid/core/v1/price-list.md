@@ -1,6 +1,6 @@
 # Price List
 
-API to get pricelist of IAK prepaid products. 价位表
+API to get pricelist of IAK prepaid products.
 
 ## Path
 
