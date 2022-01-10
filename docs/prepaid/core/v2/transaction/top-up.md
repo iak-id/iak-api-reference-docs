@@ -44,7 +44,6 @@ title: JSON
 
 ```json
 {
-  "commands"    : "topup",
   "username"    : "123123123",
   "ref_id"      : "order001",
   "customer_id" : "0817777215",
@@ -61,7 +60,6 @@ title: XML
 ```json
 <?xml version="1.0" ?>
 <mp>
-  <commands>topup</commands>
   <username>123123123</username>
   <ref_id>order001</ref_id>
   <customer_id>0817777215</customer_id>
