@@ -49,11 +49,11 @@
     //   "title": "Game Format Request",
     //   "uri": "docs/prepaid/game-format.md"
     // },
-    // {
-    //   "type": "item",
-    //   "title": "SN Format",
-    //   "uri": "docs/prepaid/sn-format.md"
-    // },
+    {
+      "type": "item",
+      "title": "SN Format",
+      "uri": "docs/prepaid/sn-format.md"
+    },
     {
       "type": "item",
       "title": "Product Type and Operator",
