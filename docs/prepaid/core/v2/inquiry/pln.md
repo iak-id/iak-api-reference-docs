@@ -60,7 +60,7 @@ title: XML
 <!-- title: Response Attributes -->
 Attributes | Type | Description | Mandatory
 ---------|----------|---------|----------
- status | Double | Transaction Status. List of status: <br> `1:SUCCESS` `2:FALIED` | Yes
+ status | Double | Transaction Status. List of status: <br> `1:SUCCESS` `2:FAILED` | Yes
  customer_id | String | Customer ID | Yes
  meter_no | String | Meter Number | Yes
  subscriber_id | String | Customer ID information | Yes
