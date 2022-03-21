@@ -23,6 +23,7 @@ Name | **game_code** | **hp** format
  Life After | 154 | {userid}\|{serverid}
  Higgs Domino | 168 | {userid}
  Genshin Impact | 172 | {userid}\|{serverid}
+ LoL Wild Rift | 176 | {userid}\|{tag}
  
  <!-- theme: info -->
 
@@ -30,6 +31,10 @@ Name | **game_code** | **hp** format
 > - **zoneid** = Zone ID
 > - **rolename** = Player name
 > - **serverid** = Server ID. See [here](#inquiry-game-server) for server id.
+> - **tag** = Tagline. You can get from https://account.riotgames.com/ 
+>   ![Lolwr-tag](../../assets/images/games/lolwr-tag.jpg)
+>   or from inside the game 
+>   ![Lolwr-game](../../assets/images/games/lolwr-game.jpg)
 
 ## Game Server
 
