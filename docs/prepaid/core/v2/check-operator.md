@@ -89,7 +89,7 @@ title: XML
 ```json http
 {
   "method": "POST",
-  "url": "https://prepaid.iak.dev/api/check-balance",
+  "url": "https://prepaid.iak.dev/api/check-operator",
   "headers": {
     "Content-Type": "application/json"
   },
