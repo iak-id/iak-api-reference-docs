@@ -72,12 +72,13 @@ desc | Object | Product description | Yes
 desc.**kode_area** | String | Area code | Yes
 desc.**divre** | String | Divre | Yes
 desc.**datel** | String | Datel | Yes
+desc.**jumlah_tagihan** | Int | Total Invoice | Yes
 desc.**tagihan** | Object | Invoice data | Yes
 desc.tagihan.**detail** | Array | Invoice detail per month | Yes
 desc.tagihan.detail.**periode** | String | Bill period for detailed month | Yes
 desc.tagihan.detail.**nilai_tagihan** | String | Bill value for detailed month | Yes
 desc.tagihan.detail.**admin** | String | Admin fee for detailed month | Yes
-desc.tagihan.detail.**total** | String | Bill total for detailed month | Yes
+desc.tagihan.detail.**total** | Double | Bill total for detailed month | Yes
 
 <!--
 type: tab
