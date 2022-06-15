@@ -85,7 +85,7 @@ message | String | Message | Yes
 price | Double | Total price that must be paid (nominal + admin fee) | Yes
 selling_price | Double | Deducted balance | Yes
 desc | Object | Product description | Yes
-desc.**product_desc** | String | Product detail description | Yes
+desc.**product_desc** | String | Product detail description | No
 
 <!--
 type: tab
