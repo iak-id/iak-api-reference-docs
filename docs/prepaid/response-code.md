@@ -2,7 +2,6 @@
 
 Below is all of response code for prepaid transaction.
 
-
 Response code | Description | Status
 ---------|----------|---------
  00 | SUCCESS | Success
@@ -22,8 +21,6 @@ Response code | Description | Status
  117 | PAGE NOT FOUND | Failed
  121 | MONTHLY TOP UP LIMIT EXCEEDED | Failed
  131 | TOP UP REGION BLOCKED FOR PLAYER | Failed
- 141 | INVALID USER ID / ZONE ID / SERVER ID / ROLENAME | Failed
- 142 | INVALID USER ID | Failed
  201 | UNDEFINED RESPONSE CODE | Pending
  202 | MAXIMUM 1 NUMBER 1 TIME IN 1 DAY | Failed
  203 | NUMBER IS TOO LONG | Failed
@@ -31,3 +28,11 @@ Response code | Description | Status
  205 | WRONG COMMAND | Failed
  206 | THIS DESTINATION NUMBER HAS BEEN BLOCKED | Failed
  207 | 	MAXIMUM 1 NUMBER WITH ANY CODE 1 TIME IN 1 DAY | Failed
+
+## Game
+
+Below is additional response code that applied for inquiry game section only.
+
+Response code | Description | Status | Description
+---------|----------|---------|---------
+ 143 | INQUIRY NOT NEEDED | Failed | The inputted operator is a voucher type therefore it doesn't need the player id validation

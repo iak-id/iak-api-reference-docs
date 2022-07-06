@@ -1,6 +1,10 @@
-# Inquiry Game ID
+---
+stoplight-id: a3c75e05a75d3
+---
 
-API to check game ID.
+# Inquiry Game Format hp
+
+API to check format player id. This format player id is used for **hp** field in [topup](../../transaction/top-up.md)
 
 ## Path
 
@@ -13,21 +17,24 @@ Method | Path
 Use below test case in **development** environment only. 
 
 <!-- title: Test Case List -->
-game_code | hp | Response Message
+game_code | Response Message | Description
 ---------|----------|---------
- 103 | 156378300\|8483 | SUCCESS
- Other than 103 | 156378300\|8483 | CODE NOT FOUND
- 103 | Other than 156378300\|8483 | INCORECT DESTINATION NUMBER
+ 103 | SUCCESS | [userid]\|[zoneid]
+ 135 | SUCCESS | [userid]
+ 140 | SUCCESS | [rolename]\|[userid]\|[zoneid]
+ 127 | SUCCESS | [userid]\|[serverId]
+ 142 | SUCCESS | [rolename]\|[serverId]
+ 104 | INQUIRY NOT NEEDED |
+ 1234 | CODE NOT FOUND |
 
 ## Request Body
 
 <!-- title: Request Attributes -->
 Attributes | Type | Description | Mandatory
 ---------|----------|---------|----------
- commands | String | Value: `check-game-id` | Yes
+ commands | String | Value: `game-format-id` | Yes
  username | String | Your registered phone number | Yes
- game_code | String | Game Code. See [here](../../../game-format.md#game-id) for game_code list | Yes
- hp | String | Customer ID. See [here](../../../game-format.md#game-id) for hp formula | Yes
+ game_code | String | Game Code. See [here](../../../../game-format.md#format-hp) for game_code list | Yes
  sign | String | Signature. Value: `md5(username+api_key+game_code)` | Yes
 
 <!--
@@ -37,10 +44,9 @@ title: JSON
 
 ```json
 {
-  "commands"   : "check-game-id",
+  "commands"   : "game-format-id",
   "username"   : "123123123",
   "game_code"  : "103",
-  "hp"         : "156378300|8483",
   "sign"       : "148c711ac48519014d2c361b6ebb50c2"
 }
 ```
@@ -53,10 +59,9 @@ title: XML
 ```json
 <?xml version="1.0" ?>
 <mp>
-  <commands>check-game-id</commands>
+  <commands>game-format-id</commands>
   <username>123123123</username>
   <game_code>103</game_code>
-  <hp>156378300|8483</hp>
   <sign>148c711ac48519014d2c361b6ebb50c2</sign>
 </mp>
 ```
@@ -67,11 +72,10 @@ title: XML
 <!-- title: Response Attributes -->
 Attributes | Type | Description | Mandatory
 ---------|----------|---------|----------
- username | String | Player username | Yes
+ formatGameId | String | Player id format | Yes
  status | Double | List of status <br> `1:Success` `2:Failed` | Yes
  message | String | Message | Yes
- rc | String | Response code. See [response code](../../../response-code.md) list | Yes
-
+ rc | String | Response code. See [response code](../../../../response-code.md#game) list | Yes
 
 <!--
 type: tab
@@ -80,11 +84,12 @@ title: JSON
 
 ```json
 {
-  "data": {
-    "username": "budi",
-    "status": 1,
-    "message": "SUCCESS",
-  }
+	"data": {
+		"formatGameId": "[userid]",
+		"status": 1,
+		"message": "SUCCESS",
+		"rc": "00"
+	}
 }
 ```
 
@@ -96,9 +101,10 @@ title: XML
 ```json
 <?xml version="1.0"?>
 <mp>
-  <username>budi</username>
+  <formatGameId>[userid]</formatGameId>
   <status>1</status>
   <message>SUCCESS</message>
+  <rc>00</rc>
 </mp>
 ```
 <!-- type: tab-end -->
@@ -113,10 +119,9 @@ title: XML
     "Content-Type": "application/json"
   },
   "body": {
-    "commands": "check-game-id",
+    "commands": "game-format-id",
     "username": "{your username}",
     "game_code": "103",
-    "hp": "156378300|8483",
     "sign": "{your sign}",
   }
 }
