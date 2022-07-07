@@ -44,11 +44,11 @@
       "title": "Callback",
       "uri": "docs/prepaid/callback.md"
     },
-    // {
-    //   "type": "item",
-    //   "title": "Game Format Request",
-    //   "uri": "docs/prepaid/game-format.md"
-    // },
+    {
+      "type": "item",
+      "title": "Game Format Request",
+      "uri": "docs/prepaid/game-format.md"
+    },
     {
       "type": "item",
       "title": "SN Format",
@@ -126,17 +126,28 @@
                   "type": "item",
                   "title": "Inquiry PLN",
                   "uri": "docs/prepaid/core/v1/inquiry/pln.md"
+                },
+                {
+                  "type": "group",
+                  "title": "Game",
+                  "items":[
+                    {
+                      "type": "item",
+                      "title": "Format hp",
+                      "uri": "docs/prepaid/core/v1/inquiry/game/game-format-hp.md"
+                    },
+                    {
+                      "type": "item",
+                      "title": "Server",
+                      "uri": "docs/prepaid/core/v1/inquiry/game/game-server.md"
+                    }
+                    // {
+                    //   "type": "item",
+                    //   "title": "Player ID",
+                    //   "uri": "docs/prepaid/core/v1/inquiry/game/game-id.md"
+                    // }
+                  ]
                 }
-                // {
-                //   "type": "item",
-                //   "title": "Inquiry Game ID",
-                //   "uri": "docs/prepaid/core/v1/inquiry/game-id.md"
-                // },
-                // {
-                //   "type": "item",
-                //   "title": "Inquiry Game Server",
-                //   "uri": "docs/prepaid/core/v1/inquiry/game-server.md"
-                // }
               ]
             },
             {
@@ -189,17 +200,28 @@
                   "type": "item",
                   "title": "Inquiry PLN",
                   "uri": "docs/prepaid/core/v2/inquiry/pln.md"
+                },
+                {
+                  "type": "group",
+                  "title": "Game",
+                  "items":[
+                    {
+                      "type": "item",
+                      "title": "Format hp",
+                      "uri": "docs/prepaid/core/v2/inquiry/game/game-format-hp.md"
+                    },
+                    {
+                      "type": "item",
+                      "title": "Server",
+                      "uri": "docs/prepaid/core/v2/inquiry/game/game-server.md"
+                    }
+                    // {
+                    //   "type": "item",
+                    //   "title": "Player ID",
+                    //   "uri": "docs/prepaid/core/v2/inquiry/game/game-id.md"
+                    // }
+                  ]
                 }
-                // {
-                //   "type": "item",
-                //   "title": "Inquiry Game ID",
-                //   "uri": "docs/prepaid/core/v2/inquiry/game-id.md"
-                // },
-                // {
-                //   "type": "item",
-                //   "title": "Inquiry Game Server",
-                //   "uri": "docs/prepaid/core/v2/inquiry/game-server.md"
-                // }
               ]
             },
             {
