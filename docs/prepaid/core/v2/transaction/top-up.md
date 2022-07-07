@@ -35,7 +35,7 @@ Attributes | Type | Description | Mandatory
 > 1. **pulsa**: Phone Number / MSISDN
 > 2. **data**: Phone Number / MSISDN
 > 3. **pln**: Meter Number (11 digits)
-> 4. **games**: Phone Number for games voucher (we don't send SMS) / Game ID for direct topup. See [here](../../../game-format.md#inquiry-game-id) for direct topup Game ID.
+> 4. **games**: Phone Number for games voucher (we don't send SMS) / Game ID for direct topup. See [here](../../../game-format.md) for direct topup Game ID.
 
 <!--
 type: tab

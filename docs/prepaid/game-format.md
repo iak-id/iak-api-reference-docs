@@ -1,9 +1,32 @@
 # Game Format Request
 
-## Game ID
+There are 2 types of game product:
+ 1. **Direct top up**
 
-Below is available game code for [inquiry game id](./core/v2/inquiry/game-id.md)
+    For this type, the balance is injected directly to player account. To use [top up](./core/v2/transaction/top-up.md) service, you need to provide player id as **hp** field. This player id has different format for different game.
+    There are 2 services to check format player id:
 
+      Format hp
+
+      Format hp is the format that you need to input as the hp field in [top up](./core/v2/transaction/top-up.md). 
+      To see format hp, you can use [api services](./core/v2/inquiry/game/game-format-hp.md) or use the [table](#format-hp) below.
+
+      Server List 
+
+      After you know the format hp, some of format require **server_id**. To get server_id list you can use [api services](./core/v2/inquiry/game/game-server.md) or use the [table](#server-list) below.
+
+      <!-- theme: info -->
+      > List of game product that need to direct top up is [here](#format-hp).
+
+ 2. **Redeem voucher**
+
+    For this type, user need to redeem the voucher manually. Beside game code that listed [here](#format-hp), you can directly do [top up](./core/v2/transaction/top-up.md) because it doesn't need player id validity. See how to redeem voucher for each game [here](https://help.iak.id/category/syarat-dan-ketentuan/panduan-redeem-voucher-game).
+
+    <!-- theme: info -->
+    > List of game product that need to redeem voucher is beside the game code listed [here](#format-hp).
+
+## Format hp
+Below is the format player id for each game code.
 
 Name | **game_code** | **hp** format
 ---------|----------|---------
@@ -36,7 +59,7 @@ Name | **game_code** | **hp** format
 >   or from inside the game 
 >   ![Lolwr-game](../../assets/images/games/lolwr-game.jpg)
 
-## Game Server
+## Server List
 
 Below is available game code for [inquiry game server](./core/v2/inquiry/game-server.md)
 

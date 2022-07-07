@@ -2,7 +2,6 @@
 
 Below is all of response code for prepaid transaction.
 
-
 Response code | Description | Status
 ---------|----------|---------
  00 | SUCCESS | Success
@@ -31,3 +30,11 @@ Response code | Description | Status
  205 | WRONG COMMAND | Failed
  206 | THIS DESTINATION NUMBER HAS BEEN BLOCKED | Failed
  207 | 	MAXIMUM 1 NUMBER WITH ANY CODE 1 TIME IN 1 DAY | Failed
+
+## Game
+
+Below is additional response code that applied for inquiry game section only.
+
+Response code | Description | Status | Description
+---------|----------|---------|---------
+ 143 | INQUIRY NOT NEEDED | Failed | The inputted operator is a voucher type therefore it doesn't need the player id validation
