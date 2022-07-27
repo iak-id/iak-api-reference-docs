@@ -68,17 +68,7 @@ selling_price | Double | Deducted balance | Yes
 balance | Double | Client remaining balance | Yes
 noref | String | Biller reference number (if exist) | No
 ref_id | String | Your order number / reference ID ( must unique ) | Yes
-desc | Object | Product description | Yes
-desc.**misc_fee** | Double | Other fee | Yes
-desc.**item_name** | String | Item name | Yes
-desc.**no_rangka** | String | Chassis number | Yes
-desc.**no_pol** | String | Police number | Yes
-desc.**tenor** | String | Tenor | Yes
-desc.**installment** | Double | Installment fee | Yes
-desc.**penalty_bill** | Double | Penalty fee | Yes
-desc.**max_payment** | Double | Max payment | Yes
-desc.**last_paid_due_date** | String | Last paid due date | Yes
-desc.**id_ref** | String | Finance reff number | Yes
+desc | Object | Product description, please refer to [here](./multifinance-object.md) | Yes
 
 <!--
 type: tab
