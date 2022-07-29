@@ -33,6 +33,7 @@ Attributes | Type | Description | Mandatory
 insured | String | Number of member insured | Yes
 policy_status | String |  Policy Status | Yes
 due_date | String | Last day to pay bill | Yes
+footer | String | Biller message | Yes
 
 ### Mega Finance
 This object applied for pulsa_code `FNMF`
