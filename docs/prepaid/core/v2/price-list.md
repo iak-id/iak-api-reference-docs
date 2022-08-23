@@ -59,7 +59,7 @@ title: XML
 Attributes | Type | Description | Mandatory
 ---------|----------|---------|----------
  product_code | String | Product code | Yes
- product_op | String | Product operator name | Yes
+ product_description | String | Product operator name | Yes
  product_details | String | Product description | Yes
  product_nominal | String | Product denomination | Yes
  product_price | Double | Product price | Yes

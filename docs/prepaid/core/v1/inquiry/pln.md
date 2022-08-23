@@ -63,7 +63,7 @@ title: XML
 <!-- title: Response Attributes -->
 Attributes | Type | Description | Mandatory
 ---------|----------|---------|----------
- status | Double | Transaction Status. List of status: <br> `1:SUCCESS` `2:FAILED` | Yes
+ status | String | Transaction Status. List of status: <br> `1:SUCCESS` `2:FAILED` | Yes
  hp | String | Customer ID | Yes
  meter_no | String | Meter Number | Yes
  subscriber_id | String | Customer ID information | Yes
@@ -81,7 +81,7 @@ title: JSON
 ```json
 {
   "data": {
-    "status": 1,
+    "status": "1",
     "hp": "12345678901",
     "meter_no": "548933889287",
     "subscriber_id": "12345678901",
