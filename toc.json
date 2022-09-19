@@ -294,6 +294,44 @@
             },
             {
               "type": "group",
+              "title": "BJPS Ketenagakerjaan",
+              "items": [
+                {
+                  "type": "group",
+                  "title": "BPU",
+                  "items": [
+                    {
+                      "type": "item",
+                      "title": "Inquiry",
+                      "uri": "docs/postpaid/core/product/bpjs-ketenagakerjaan/BPU/inquiry.md"
+                    },
+                    {
+                      "type": "item",
+                      "title": "Payment",
+                      "uri": "docs/postpaid/core/product/bpjs-ketenagakerjaan/BPU/payment.md"
+                    }
+                  ]
+                },
+                {
+                  "type": "group",
+                  "title": "PU",
+                  "items": [
+                    {
+                      "type": "item",
+                      "title": "Inquiry",
+                      "uri": "docs/postpaid/core/product/bpjs-ketenagakerjaan/PU/inquiry.md"
+                    },
+                    {
+                      "type": "item",
+                      "title": "Payment",
+                      "uri": "docs/postpaid/core/product/bpjs-ketenagakerjaan/PU/payment.md"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "group",
               "title": "Gas Negara",
               "items": [
                 {
