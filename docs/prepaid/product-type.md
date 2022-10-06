@@ -46,24 +46,27 @@ List of operator:
   - dragon_nest\_m\_-_sea
   - era_of_celestials
   - free_fire
-  - battlenet_sea
   - garena
   - gemscool
+  - genshin_impact
   - google_play_us_region
   - google_play_indonesia
   - itunes_us_region
   - lyto
+  - joox
   - megaxus
   - mobile_legend
   - razer_pin
   - playstation
   - steam_sea
   - wave_game
+  - league_of_legends_wild_rift
   - lifeafter
   - light_of_thel:_glory_of_cepheus
   - lords_mobile
   - marvel_super_war
   - minecraft
+  - netflix
   - nintendo_eshop
   - point_blank
   - pubg_mobile
@@ -71,6 +74,8 @@ List of operator:
   - ragnarok_m
   - skyegrid
   - speed_drifters
+  - vidio
+  - viu
   - wifi_id
 
 <!--
