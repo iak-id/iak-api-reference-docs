@@ -41,6 +41,7 @@ title: game
 List of operator:
 
   - arena_of_valor
+  - battlenet_sea
   - bleach_mobile_3d
   - call_of_duty_mobile
   - dragon_nest\_m\_-_sea
