@@ -44,7 +44,6 @@ Name | **game_code** | **hp** format
  Light of Thel:Glory of Cepheus | 152 | {userid}
  Lords Mobile | 153 | {userid}
  Life After | 154 | {userid}\|{serverid}
- Higgs Domino | 168 | {userid}
  Genshin Impact | 172 | {userid}\|{serverid}
  LoL Wild Rift | 176 | {userid}\|{tag}
  
