@@ -1,6 +1,6 @@
-# Payment Multifinance
+# Payment Insurance
 
-API to pay multifinance.
+API to pay insurance.
 
 ## Path
 
@@ -42,7 +42,7 @@ title: XML
 <mp>
   <commands>pay-pasca</commands>
   <username>123123123</username>
-  <tr_id>9732789</tr_id>
+  <tr_id>268137898</tr_id>
   <sign>203d8ff7eff07fe51c2a009450b1202c</sign>
 </mp>
 ```
@@ -68,7 +68,7 @@ selling_price | Double | Deducted balance | Yes
 balance | Double | Client remaining balance | Yes
 noref | String | Biller reference number (if exist) | No
 ref_id | String | Your order number / reference ID ( must unique ) | Yes
-desc | Object | Product description, please refer to [multifinance object](./multifinance-object.md) | Yes
+desc | Object | Product description, please refer to [insurance object](./insurance-object.md) | Yes
 
 <!--
 type: tab
@@ -77,36 +77,32 @@ title: JSON
 
 ```json
 {
-  "data": {
-    "tr_id": 9732789,
-    "code": "FNMEGA",
-    "datetime": "20180803171802",
-    "hp": "6391601201",
-    "tr_name": "ABDUL SAMID HARAHAP",
-    "period": "005",
-    "nominal": 661000,
-    "admin": 0,
-    "response_code": "00",
-    "message": "PAYMENT SUCCESS",
-    "price": 661000,
-    "selling_price": 660500,
-    "balance": 998506398,
-    "noref": "49911296",
-    "ref_id": "091283746513",
-    "desc": {
-      "misc_fee": 0,
-      "item_name": "HONDA VARIO TECHNO 125 PGM FI NON CBS",
-      "no_rangka": "MH1JFB111CK196426",
-      "no_pol": "B6213UWX",
-      "tenor": "030",
-      "installment": 657695,
-      "penalty_bill": 3305,
-      "max_payment": 0,
-      "last_paid_due_date": "14 Dec 12",
-      "id_ref": "514367"
-    }
-  },
-  "meta": []
+	"data": {
+		"tr_id": 268137898,
+		"code": "AIA.PREMICONVEN",
+		"datetime": "20221110143144",
+		"hp": "10202001",
+		"tr_name": "USER TESTING AIA",
+		"period": "",
+		"nominal": 1250000,
+		"admin": 3000,
+		"response_code": "00",
+		"message": "PAYMENT SUCCESS",
+		"price": 1253000,
+		"selling_price": 1252500,
+		"balance": 99890200908,
+		"noref": "2022080917161681291 0000000252",
+		"ref_id": "09128374652",
+		"desc": {
+			"insured": "XX",
+			"policy_status": "XX",
+			"due_date": "XX",
+			"footer": [
+				"AIA CUSTOMER CARE 1500980"
+			]
+		}
+	},
+	"meta": []
 }
 ```
 
@@ -116,35 +112,29 @@ title: XML
 -->
 
 ```json
-<?xml version="1.0"?>
+<?xmlversion="1.0"encoding="UTF-8"?>
 <mp>
-  <tr_id>9732789</tr_id>
-  <code>FNMEGA</code>
-  <datetime>20170725134000</datetime>
-  <hp>6391601201</hp>
-  <tr_name>ABDUL SAMID HARAHAP</tr_name>
-  <period>005</period>
-  <nominal>661000</nominal>
-  <admin>0</admin>
-  <response_code>00</response_code>
-  <message>PAYMENT SUCCESS</message>
-  <price>661000</price>
-  <selling_price>660500</selling_price>
-  <balance>74578043</balance>
-  <noref>49911296</noref>
-  <ref_id>1500964767</ref_id>
-  <desc>
-    <misc_fee>0</misc_fee>
-    <item_name>HONDA VARIO TECHNO 125 PGM FI NON CBS</item_name>
-    <no_rangka>MH1JFB111CK196426</no_rangka>
-    <no_pol>B6213UWX</no_pol>
-    <tenor>030</tenor>
-    <installment>657695</installment>
-    <penalty_bill>3305</penalty_bill>
-    <max_payment>0</max_payment>
-    <last_paid_due_date>14 Dec 12</last_paid_due_date>
-    <id_ref>514367</id_ref>
-  </desc>
+	<tr_id>268137898</tr_id>
+	<code>AIA.PREMICONVEN</code>
+	<datetime>20221110143144</datetime>
+	<hp>10202001</hp>
+	<tr_name>USERTESTINGAIA</tr_name>
+	<period></period>
+	<nominal>1250000</nominal>
+	<admin>3000</admin>
+	<response_code>00</response_code>
+	<message>PAYMENTSUCCESS</message>
+	<price>1253000</price>
+	<selling_price>1252500</selling_price>
+	<balance>99890200908</balance>
+	<noref>20220809171616812910000000252</noref>
+	<ref_id>09128374652</ref_id>
+	<desc>
+		<insured>XX</insured>
+		<policy_status>XX</policy_status>
+		<due_date>XX</due_date>
+		<footer>AIACUSTOMERCARE1500980</footer>
+	</desc>
 </mp>
 ```
 <!-- type: tab-end -->

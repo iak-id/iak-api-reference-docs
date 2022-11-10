@@ -359,6 +359,11 @@
                   "type": "item",
                   "title": "Payment",
                   "uri": "docs/postpaid/core/product/multifinance/payment.md"
+                },
+                {
+                  "type": "item",
+                  "title": "Multifinance Object",
+                  "uri": "docs/postpaid/core/product/multifinance/multifinance-object.md"
                 }
               ]
             },
