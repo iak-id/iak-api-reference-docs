@@ -522,6 +522,22 @@
                   "uri": "docs/postpaid/core/product/pbb/payment.md"
                 }
               ]
+            },
+            {
+              "type": "group",
+              "title": "Insurance",
+              "items": [
+                {
+                  "type": "item",
+                  "title": "Inquiry",
+                  "uri": "docs/postpaid/core/product/insurance/inquiry.md"
+                },
+                {
+                  "type": "item",
+                  "title": "Payment",
+                  "uri": "docs/postpaid/core/product/insurance/payment.md"
+                }
+              ]
             }
           ]
         },
