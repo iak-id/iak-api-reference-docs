@@ -278,6 +278,22 @@
           "items": [
             {
               "type": "group",
+              "title": "BJPS Denda",
+              "items": [
+                {
+                  "type": "item",
+                  "title": "Inquiry",
+                  "uri": "docs/postpaid/core/product/bpjs-denda/inquiry.md"
+                },
+                {
+                  "type": "item",
+                  "title": "Payment",
+                  "uri": "docs/postpaid/core/product/bpjs-denda/payment.md"
+                }
+              ]
+            },
+            {
+              "type": "group",
               "title": "BJPS Kesehatan",
               "items": [
                 {
