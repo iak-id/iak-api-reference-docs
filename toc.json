@@ -202,6 +202,11 @@
                   "uri": "docs/prepaid/core/v2/inquiry/pln.md"
                 },
                 {
+                  "type": "item",
+                  "title": "Inquiry OVO",
+                  "uri": "docs/prepaid/core/v2/inquiry/ovo.md"
+                },
+                {
                   "type": "group",
                   "title": "Game",
                   "items":[
