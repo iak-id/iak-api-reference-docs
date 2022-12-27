@@ -8,6 +8,16 @@ Method | Path
 ---------|----------
  POST | api/inquiry-ovo
 
+ ## Test Case
+
+Use below test case in **development** environment only. 
+
+<!-- title: Test Case List -->
+customer_id | Response Message 
+---------|----------
+ 082179374708 | SUCCESS
+ Other than 082179374708 | INCORRECT DESTINATION NUMBER
+
 ## Request Body
 
 <!-- title: Request Attributes -->
@@ -25,7 +35,7 @@ title: JSON
 ```json
 {
   "username"    : "123123123",
-  "customer_id" : "0817777215",
+  "customer_id" : "082179374708",
   "sign"        : "df1f2be3585597a5ec102b792555adc9"
 }
 ```
@@ -39,7 +49,7 @@ title: XML
 <?xml version="1.0"?>
 <mp>
   <username>123123123</username>
-  <customer_id>0817777215</customer_id>
+  <customer_id>082179374708</customer_id>
   <sign>df1f2be3585597a5ec102b792555adc9</sign>
 </mp>
 ```
@@ -66,8 +76,8 @@ title: JSON
 {
   "data": {
     "status": "1",
-    "customer_id": "0817777215",
-    "name": "Sintya Oktaviani",
+    "customer_id": "082179374708",
+    "name": "OVO shXXXy",
     "message": "SUCCESS",
     "rc": "00"
   }
@@ -83,8 +93,8 @@ title: XML
 <?xml version="1.0"?>
 <mp>
   <status>1</status>
-  <customer_id>0817777215</customer_id>
-  <name>Sintya Oktaviani</name>
+  <customer_id>082179374708</customer_id>
+  <name>OVO shXXXy</name>
   <message>SUCCESS</message>
   <rc>00</rc>
 </mp>
