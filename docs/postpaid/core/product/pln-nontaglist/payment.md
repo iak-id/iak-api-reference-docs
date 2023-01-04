@@ -1,6 +1,6 @@
 # Payment PLN NONTAGLIST Postpaid
 
-API to pay PLN postpaid.
+API to pay PLN Non Taglist Postpaid.
 
 ## Path
 
@@ -56,7 +56,7 @@ Attributes | Type | Description | Mandatory
 tr_id | Integer | IAK inquiry ID | Yes
 code | String | Product code | Yes
 datetime | String | Transaction Date | Yes
-hp | String | PLN postpaid customer number | Yes
+hp | String | PLN Non Taglist customer number | Yes
 tr_name | String | Bill account name | Yes
 period | String | Bill period | Yes
 nominal | Double | Bill nominal | Yes

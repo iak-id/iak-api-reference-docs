@@ -22,7 +22,7 @@ Attributes | Type | Description | Mandatory
 commands | String | Value: `inq-pasca` | Yes
 username | String | Your registered phone number | Yes
 code | String | Product Code. You can get list of product code in [pricelist api](../../price-list.md) or from pricelist [here](https://iak.id/webapp/pricelist) | Yes
-hp | String | PLN postpaid customer number | Yes
+hp | String | PLN Non Taglist customer number | Yes
 ref_id | String | Your order number / reference ID ( must unique ) | Yes
 sign | String | Signature. Value: `md5(username+api_key+ref_id)` | Yes
 
@@ -67,7 +67,7 @@ Attributes | Type | Description | Mandatory
 ---------|----------|---------|----------
 tr_id | Integer | IAK inquiry ID | Yes
 code | String | Product code | Yes
-hp | String | PLN postpaid customer number | Yes
+hp | String | PLN Non Taglist customer number | Yes
 tr_name | String | Bill account name | Yes
 period | String | Bill period | Yes
 nominal | Double | Bill nominal | Yes
