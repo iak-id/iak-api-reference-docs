@@ -38,7 +38,7 @@ title: JSON
   "commands"	: "inq-pasca",
   "username"	: "123123123",
   "code"	    : "PLNNONH",
-  "hp"	      : "10202001",
+  "hp"	      : "3225030005922",
   "ref_id"    : "09128374655",
   "sign"	    : "0f32cc44bb9469687ef24b6ea857db06"
 }
@@ -55,7 +55,7 @@ title: XML
   <commands>inq-pasca</commands>
   <username>123123123</username>
   <code>PLNNONH</code>
-  <hp>10202001</hp>
+  <hp>3225030005922</hp>
   <ref_id>09128374655</ref_id>
   <sign>1ac8362ae9a517eadf4a47715555b022</sign>
 </mp>
@@ -95,7 +95,7 @@ title: JSON
 	"data": {
 		"tr_id": 219346108,
 		"code": "PLNNONH",
-		"hp": "10202001",
+		"hp": "3225030005922",
 		"tr_name": "JAYUSMAN",
 		"period": "",
 		"nominal": 696400,
@@ -125,7 +125,7 @@ title: XML
 <mp>
 	<tr_id>9732792</tr_id>
 	<code>PLNNONH</code>
-	<hp>10202001</hp>
+	<hp>3225030005922</hp>
 	<tr_name>SUBCRIBER NAME</tr_name>
 	<period>201608</period>
 	<nominal>300000</nominal>
@@ -166,7 +166,7 @@ title: XML
     "commands": "inq-pasca",
     "username": "{your username}",
     "code": "PLNNONH",
-    "hp"	      : "10202001",
+    "hp"	      : "3225030005922",
     "ref_id"    : "09128374655",
     "sign": "{your sign}"
   }
