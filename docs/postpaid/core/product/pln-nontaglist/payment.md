@@ -123,7 +123,7 @@ title: XML
 	<nominal>696400</nominal>
 	<admin>1600</admin>
 	<response_code>00</response_code>
-	<message>INQUIRY SUCCESS</message>
+	<message>PAYMENT SUCCESS</message>
 	<price>698000</price>
 	<selling_price>696200</selling_price>
   <balance>726424608</balance>
@@ -148,7 +148,7 @@ title: XML
     "Content-Type": "application/json"
   },
   "body": {
-    "commands": "inq-pasca",
+    "commands": "pay-pasca",
     "username": "{your username}",
     "code": "PLNNONH",
     "hp"	      : "3225030005922",
