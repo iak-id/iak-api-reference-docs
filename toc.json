@@ -406,6 +406,22 @@
             },
             {
               "type": "group",
+              "title": "PLN Non Taglist",
+              "items": [
+                {
+                  "type": "item",
+                  "title": "Inquiry",
+                  "uri": "docs/postpaid/core/product/pln-nontaglist/inquiry.md"
+                },
+                {
+                  "type": "item",
+                  "title": "Payment",
+                  "uri": "docs/postpaid/core/product/pln-nontaglist/payment.md"
+                }
+              ]
+            },
+            {
+              "type": "group",
               "title": "Television",
               "items": [
                 {
