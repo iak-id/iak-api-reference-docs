@@ -27,7 +27,7 @@ title: JSON
 {
   "commands" : "pay-pasca",
   "username" : "123123123",
-  "tr_id"    : "9732792",
+  "tr_id"    : "219346108",
   "sign"     : "7c22017cf8c1d137f16c83c03a5aced2"
 }
 ```
@@ -42,7 +42,7 @@ title: XML
 <mp>
   <commands>pay-pasca</commands>
   <username>123123123</username>
-  <tr_id>9732792</tr_id>
+  <tr_id>219346108</tr_id>
   <sign>7c22017cf8c1d137f16c83c03a5aced2</sign>
 </mp>
 ```
@@ -67,7 +67,7 @@ price | Double | Total price that must be paid (nominal + admin fee) | Yes
 selling_price | Double | Deducted balance | Yes
 balance | Integer | Current balance | Yes
 noref | String | Partner transaction id (if available) | Yes
-ref_id | String | Your order number / reference ID ( must unique ) | Yes
+ref_id | String | Your order number / reference ID. Value: ```ref- + timestamp(D_MMMM_Y_H.mm.ss)``` ( must unique ) | Yes
 desc | Object | Product description | Yes
 desc.**transaksi** | String | Transaction information | Yes
 desc.**no_registrasi** | String | Registration number | Yes
@@ -115,31 +115,24 @@ title: XML
 ```json
 <?xml version="1.0"?>
 <mp>
-	<tr_id>9732792</tr_id>
+	<tr_id>219346114</tr_id>
 	<code>PLNNONH</code>
 	<hp>3225030005922</hp>
 	<tr_name>SUBCRIBER NAME</tr_name>
-	<period>201608</period>
-	<nominal>300000</nominal>
-	<admin>2500</admin>
-	<ref_id>09128374655</ref_id>
+	<period></period>
+	<nominal>696400</nominal>
+	<admin>1600</admin>
 	<response_code>00</response_code>
 	<message>INQUIRY SUCCESS</message>
-	<price>302500</price>
-	<selling_price>302500</selling_price>
+	<price>698000</price>
+	<selling_price>696200</selling_price>
+  <balance>726424608</balance>
+  <noref>18147159</noref>
+  <ref_id>ref-3_January_2023_17.12.19</ref_id>
 	<desc>
-		<tarif>R1</tarif>
-		<daya>1300</daya>
-		<lembar_tagihan>1</lembar_tagihan>
-		<tagihan>
-			<detail>
-				<periode>201608</periode>
-				<nilai_tagihan>300000</nilai_tagihan>
-				<admin>2500</admin>
-				<denda>0</denda>
-				<total>302500</total>
-			</detail>
-		</tagihan>
+		<transaksi>PENYAMBUNGAN BARU</transaksi>
+		<no_registrasi>5392112011703</daya>
+		<tanggal_registrasi>20120524</lembar_tagihan>
 	</desc>
 </mp>
 ```
@@ -159,7 +152,7 @@ title: XML
     "username": "{your username}",
     "code": "PLNNONH",
     "hp"	      : "3225030005922",
-    "ref_id"    : "09128374655",
+    "ref_id"    : "ref-3_January_2023_17.12.19",
     "sign": "{your sign}"
   }
 }
