@@ -27,7 +27,7 @@ title: JSON
 {
   "commands" : "pay-pasca",
   "username" : "123123123",
-  "tr_id"    : "219346108",
+  "tr_id"    : "219346114",
   "sign"     : "7c22017cf8c1d137f16c83c03a5aced2"
 }
 ```
@@ -42,7 +42,7 @@ title: XML
 <mp>
   <commands>pay-pasca</commands>
   <username>123123123</username>
-  <tr_id>219346108</tr_id>
+  <tr_id>219346114</tr_id>
   <sign>7c22017cf8c1d137f16c83c03a5aced2</sign>
 </mp>
 ```
@@ -96,7 +96,7 @@ title: JSON
 		"selling_price": 696200,
 		"balance": 726424608,
 		"noref": "18147159",
-		"ref_id": "ref-3_January_2023_17.12.19",
+		"ref_id": "09128374655",
 		"desc": {
 			"transaksi": "PENYAMBUNGAN BARU",
 			"no_registrasi": "5392112011703",
@@ -128,7 +128,7 @@ title: XML
 	<selling_price>696200</selling_price>
   <balance>726424608</balance>
   <noref>18147159</noref>
-  <ref_id>ref-3_January_2023_17.12.19</ref_id>
+  <ref_id>09128374655</ref_id>
 	<desc>
 		<transaksi>PENYAMBUNGAN BARU</transaksi>
 		<no_registrasi>5392112011703</daya>
@@ -152,7 +152,7 @@ title: XML
     "username": "{your username}",
     "code": "PLNNONH",
     "hp"	      : "3225030005922",
-    "ref_id"    : "ref-3_January_2023_17.12.19",
+    "ref_id"    : "09128374655",
     "sign": "{your sign}"
   }
 }

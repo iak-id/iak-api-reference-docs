@@ -39,7 +39,7 @@ title: JSON
   "username"	: "123123123",
   "code"	    : "PLNNONH",
   "hp"	      : "3225030005922",
-  "ref_id"    : "ref-3_January_2023_16.44.13",
+  "ref_id"    : "09128374655",
   "sign"	    : "0f32cc44bb9469687ef24b6ea857db06"
 }
 ```
@@ -56,7 +56,7 @@ title: XML
   <username>123123123</username>
   <code>PLNNONH</code>
   <hp>3225030005922</hp>
-  <ref_id>ref-3_January_2023_16.44.13</ref_id>
+  <ref_id>09128374655</ref_id>
   <sign>0f32cc44bb9469687ef24b6ea857db06</sign>
 </mp>
 ```
@@ -100,7 +100,7 @@ title: JSON
 		"period": "",
 		"nominal": 696400,
 		"admin": 1600,
-		"ref_id": "ref-3_January_2023_16.44.13",
+		"ref_id": "09128374655",
 		"response_code": "00",
 		"message": "INQUIRY SUCCESS",
 		"price": 698000,
@@ -130,7 +130,7 @@ title: XML
 	<period></period>
 	<nominal>696400</nominal>
 	<admin>1600</admin>
-	<ref_id>ref-3_January_2023_16.44.13</ref_id>
+	<ref_id>09128374655</ref_id>
 	<response_code>00</response_code>
 	<message>INQUIRY SUCCESS</message>
 	<price>698000</price>
@@ -158,7 +158,7 @@ title: XML
     "username": "{your username}",
     "code": "PLNNONH",
     "hp"	      : "3225030005922",
-    "ref_id"    : "ref-3_January_2023_16.44.13",
+    "ref_id"    : "09128374655",
     "sign": "{your sign}"
   }
 }
