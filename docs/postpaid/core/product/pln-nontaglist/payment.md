@@ -27,7 +27,7 @@ title: JSON
 {
   "commands" : "pay-pasca",
   "username" : "123123123",
-  "tr_id"    : "219346114",
+  "tr_id"    : "219346108",
   "sign"     : "7c22017cf8c1d137f16c83c03a5aced2"
 }
 ```
@@ -42,7 +42,7 @@ title: XML
 <mp>
   <commands>pay-pasca</commands>
   <username>123123123</username>
-  <tr_id>219346114</tr_id>
+  <tr_id>219346108</tr_id>
   <sign>7c22017cf8c1d137f16c83c03a5aced2</sign>
 </mp>
 ```
@@ -82,7 +82,7 @@ title: JSON
 ```json
 {
 	"data": {
-		"tr_id": 219346114,
+		"tr_id": 219346108,
 		"code": "PLNNONH",
 		"datetime": "20230103171240",
 		"hp": "3225030005922",
@@ -115,10 +115,10 @@ title: XML
 ```json
 <?xml version="1.0"?>
 <mp>
-	<tr_id>219346114</tr_id>
+	<tr_id>219346108</tr_id>
 	<code>PLNNONH</code>
 	<hp>3225030005922</hp>
-	<tr_name>SUBCRIBER NAME</tr_name>
+	<tr_name>JAYUSMAN</tr_name>
 	<period></period>
 	<nominal>696400</nominal>
 	<admin>1600</admin>
@@ -149,9 +149,9 @@ title: XML
   },
   "body": {
   "commands" : "pay-pasca",
-  "username" : "123123123",
-  "tr_id"    : "219346114",
-  "sign"     : "7c22017cf8c1d137f16c83c03a5aced2"
+  "username" : "{your username}",
+  "tr_id"    : "219346108",
+  "sign"     : "{your sign}"
   }
 }
 ```

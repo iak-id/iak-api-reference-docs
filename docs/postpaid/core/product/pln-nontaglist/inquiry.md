@@ -126,7 +126,7 @@ title: XML
 	<tr_id>219346108</tr_id>
 	<code>PLNNONH</code>
 	<hp>3225030005922</hp>
-	<tr_name>SUBCRIBER NAME</tr_name>
+	<tr_name>JAYUSMAN</tr_name>
 	<period></period>
 	<nominal>696400</nominal>
 	<admin>1600</admin>
