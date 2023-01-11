@@ -148,12 +148,10 @@ title: XML
     "Content-Type": "application/json"
   },
   "body": {
-    "commands": "pay-pasca",
-    "username": "{your username}",
-    "code": "PLNNONH",
-    "hp"	      : "3225030005922",
-    "ref_id"    : "09128374655",
-    "sign": "{your sign}"
+  "commands" : "pay-pasca",
+  "username" : "123123123",
+  "tr_id"    : "219346114",
+  "sign"     : "7c22017cf8c1d137f16c83c03a5aced2"
   }
 }
 ```
