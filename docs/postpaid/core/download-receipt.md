@@ -2,6 +2,11 @@
 
 API to download receipt after paying the bill. 
 
+<!-- theme: info -->
+
+> In production environment, you must whitelist your IP [here](https://developer.iak.id/prod-setting) to be able to download receipt.
+
+
 ## Path
 
 Method | Path 
