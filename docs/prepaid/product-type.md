@@ -55,9 +55,9 @@ title: voucher
 
 List of operator:
 
-  - alfamart_voucher
-  - transmart_carrefour
-  - indomaret_voucher
+  - alfamart
+  - carrefour
+  - indomaret
   - map
   - tokopedia
   - traveloka
