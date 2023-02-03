@@ -4,6 +4,21 @@ Below is all of IAK prepaid product type and each operator of the type.
 
 <!--
 type: tab
+title: pulsa
+-->
+
+List of operator:
+
+  - axis
+  - indosat
+  - smart
+  - telkomsel
+  - three
+  - xixi_games
+  - xl
+
+<!--
+type: tab
 title: data
 -->
 
@@ -32,6 +47,21 @@ List of operator:
   - ovo
   - shopee_pay
   - tix_id
+
+<!--
+type: tab
+title: voucher
+-->
+
+List of operator:
+
+  - alfamart
+  - carrefour
+  - indomaret
+  - map
+  - tokopedia
+  - traveloka
+  - udemy
 
 <!--
 type: tab
@@ -90,26 +120,22 @@ List of operator:
 
 <!--
 type: tab
-title: bangladesh
+title: international
 -->
+
+**Bangladesh**
 
 List of operator:
 
   - bangladesh_topup
 
-<!--
-type: tab
-title: china
--->
+**China**
 
 List of operator:
 
   - china_topup
 
-<!--
-type: tab
-title: malaysia
--->
+**Malaysia**
 
 List of operator:
 
@@ -121,10 +147,7 @@ List of operator:
   - umobile
   - xox
 
-<!--
-type: tab
-title: philipines
--->
+**Philipines**
 
 List of operator:
 
@@ -132,25 +155,7 @@ List of operator:
   - smart
   - sun_telecom
 
-<!--
-type: tab
-title: pulsa
--->
-
-List of operator:
-
-  - axis
-  - indosat
-  - smart
-  - telkomsel
-  - three
-  - xixi_games
-  - xl
-
-<!--
-type: tab
-title: singapore
--->
+**Singapore**
 
 List of operator:
 
@@ -158,10 +163,7 @@ List of operator:
   - singtel
   - starhub
 
-<!--
-type: tab
-title: taiwan
--->
+**Taiwan**
 
 List of operator:
 
@@ -169,34 +171,17 @@ List of operator:
   - if_taiwan_topup
   - ok_taiwan_topup
 
-<!--
-type: tab
-title: thailand
--->
+**Thailand**
 
 List of operator:
 
   - thailand_topup
 
-<!--
-type: tab
-title: vietnam
--->
+**Vietnam**
 
 List of operator:
 
   - vietnam_topup
 
-<!--
-type: tab
-title: voucher
--->
-
-List of operator:
-
-  - alfamart_voucher
-  - transmart_carrefour
-  - indomaret_voucher
-  - tokopedia
 
 <!-- type: tab-end -->
