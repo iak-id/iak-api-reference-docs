@@ -18,6 +18,7 @@ Response code | Description | Status | Solution
  102 | INVALID IP ADDRESS | Failed | Your IP address isn’t allowed to make a transaction. You can add your IP address to your allowed IP address list in https://developer.iak.id/prod-setting. 
  106 | PRODUCT IS TEMPORARILY OUT OF SERVICE | Failed | The product_code that you pick is in non-active status. You can retry your transaction with another product_code that has active status.
  107 | ERROR IN XML FORMAT | Failed | The body format of your request isn’t correct or there is an error in your body (required, ajax error, etc). Please use the correct JSON or XML format corresponding to your request to API. You can see the required body request for each request in the API Documentation (https://api.iak.id/docs/reference).
+ 110 | SYSTEM UNDER MAINTENANCE | Failed | The system is currently under maintenance, you can try again later.
  117 | PAGE NOT FOUND | Failed | The API URL that you want to hit is not found. Try checking your request URL for any typos or try other API URLs.
  121 | MONTHLY TOP UP LIMIT EXCEEDED | Failed | -
  131 | TOP UP REGION BLOCKED FOR PLAYER | Failed | Your current destination number top up request is blocked in that region. Please try again with a different destination number.

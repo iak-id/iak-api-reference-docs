@@ -71,11 +71,11 @@ ref_id | String | Your order number / reference ID ( must unique ) | Yes
 desc | Object | Product description | Yes
 desc.**kode_iuran** | String | 	Contribution Code | Yes
 desc.**kode_program** | String | 	Choosen Program Code | Yes
-desc.**jht** | String | 	Pension Plan Fee | Yes
-desc.**jkk** | String | 	Accident Insurance Fee | Yes
-desc.**jkm** | String | 	Death Insurance Fee | Yes
-desc.**jpk** | String | 	Lost Job Fee | Yes
-desc.**jpn** | String | 	Pension Plan Fee | Yes
+desc.**jht** | Integer | 	Pension Plan Fee | Yes
+desc.**jkk** | Integer | 	Accident Insurance Fee | Yes
+desc.**jkm** | Integer | 	Death Insurance Fee | Yes
+desc.**jpk** | Integer | 	Lost Job Fee | Yes
+desc.**jpn** | Integer | 	Pension Plan Fee | Yes
 
 <!--
 type: tab

@@ -86,9 +86,9 @@ ref_id | String | Your order number / reference ID ( must unique ) | Yes
 desc | Object | Product description | Yes
 desc.**kode_iuran** | String | 	Contribution Code | Yes
 desc.**kode_program** | String | 	Chosen Program Code | Yes
-desc.**jht** | String | 	Pension Plan Fee | Yes
-desc.**jkk** | String | 	Accident Insurance Fee | Yes
-desc.**jkm** | String | 	Death Insurance Fee | Yes
+desc.**jht** | Integer | 	Pension Plan Fee | Yes
+desc.**jkk** | Integer | 	Accident Insurance Fee | Yes
+desc.**jkm** | Integer | 	Death Insurance Fee | Yes
 desc.**kantor_cabang** | String | 	Branch Office | Yes
 desc.**tgl_efektif** | String | 	Effective date. Format: `d-m-Y` | Yes
 desc.**tgl_expired** | String | 	Expired Date. Format: `d-m-Y` | Yes

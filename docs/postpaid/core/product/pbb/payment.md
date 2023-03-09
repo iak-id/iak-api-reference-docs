@@ -79,10 +79,10 @@ desc.**kab_kota** | Double | Districts / city | Yes
 desc.**luas_tanah** | Double | Wide of surface area | Yes
 desc.**luas_gedung** | String | Wide of building area | Yes
 desc.**jatuh_tempo** | String | Due date | Yes
-desc.**total_tagihan** | String | Total bill | Yes
-desc.**denda** | String | Penalty fee | Yes
-desc.**admin** | String | Admin fee | Yes
-desc.**total_bayar** | String | Total payment | Yes
+desc.**total_tagihan** | Float | Total bill | Yes
+desc.**denda** | Float | Penalty fee | Yes
+desc.**admin** | Integer | Admin fee | Yes
+desc.**total_bayar** | Float | Total payment | Yes
 
 <!--
 type: tab
@@ -122,7 +122,7 @@ title: JSON
       "total_tagihan": 203857,
       "denda": 0,
       "admin": 5000,
-      "total_bayar": "208857"
+      "total_bayar": 208857
     }
   },
   "meta": []
