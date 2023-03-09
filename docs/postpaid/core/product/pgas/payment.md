@@ -72,7 +72,7 @@ desc | Object | Product description | Yes
 desc.**address** | String | Customer address | Yes
 desc.**first_meter** | String | Initial meter | Yes
 desc.**last_meter** | String | Final meter | Yes
-desc.**usage** | String | Number of usage | Yes
+desc.**usage** | Integer | Number of usage | Yes
 
 <!--
 type: tab

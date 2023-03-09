@@ -72,7 +72,7 @@ desc | Object | Product description | Yes
 desc.**tarif** | String | Electrical fare group | Yes
 desc.**daya** | Integer | Electrical power | Yes
 desc.**lembar_tagihan** | String | Number of bills | Yes
-desc.**lembar_tagihan_sisa** | String | Number of bills remaining after payment | Yes
+desc.**lembar_tagihan_sisa** | Integer | Number of bills remaining after payment | Yes
 desc.**tagihan** | Object | Bill detail | Yes
 desc.tagihan.**detail** | Array | Bill detail | Yes
 desc.tagihan.detail.**meter_awal** | String | Initial meter value for detailed month | Yes

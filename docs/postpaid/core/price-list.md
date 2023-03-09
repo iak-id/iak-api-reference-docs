@@ -43,7 +43,7 @@ Available product type :
 <!-- title: Request Attributes -->
 Attributes | Type | Description | Mandatory
 ---------|----------|---------|----------
-commands | String | Value: `pricelist` | Yes
+commands | String | Value: `pricelist-pasca` | Yes
 username | String | Your registered phone number | Yes
 sign | String | Signature. Value: `md5(username+api_key+'pl')` | Yes
 status | String | Product status. <br> Value: `all`, `active`, `non active` | No
