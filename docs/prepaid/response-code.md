@@ -9,7 +9,7 @@ Response code | Description | Status | Solution
  07 | FAILED | Failed | Your current transaction has failed. Please try again.
  10 | REACH TOP UP LIMIT USING SAME DESTINATION NUMBER IN 1 DAY | Failed | Your current destination number top up request is reaching the limit on that day. Please try again tomorrow.
  12 | BALANCE MAXIMUM LIMIT EXCEEDED | Failed | -
- 13 | CUSTOMER NUMBER BLOCKED | Failed | Your custom number (customer_id) has been blocked by Indobest Artha Kreasi. You can change your customer number (customer_id) or ask IAK’s Customer Service.
+ 13 | CUSTOMER NUMBER BLOCKED | Failed | Your customer number (customer_id) has been blocked. You can change your customer number (customer_id) or contact our Customer Service.
  14 |	INCORRECT DESTINATION NUMBER | Failed | Your customer_id that you’ve inputted isn’t a valid phone number. Please check again your customer_id. 
  16 | NUMBER NOT MATCH WITH OPERATOR | Failed | Your phone number (customer_id) that you’ve inputted doesn’t match with your desired operator (product_code). Please check again your phone number or change your operator. 
  17 | INSUFFICIENT DEPOSIT | Failed | Your current deposit is lower than the product_price you want to buy. You can add more money into your deposit by doing top up on iak.id deposit menu, or if you are in development mode, you can add your development deposit by clicking the + (plus) sign on development deposit menu (https://developer.iak.id/sandbox-report). 
@@ -38,4 +38,4 @@ Below is additional response code that applied for inquiry game section only.
 
 Response code | Description | Status | Description
 ---------|----------|---------|---------
- 143 | INQUIRY NOT NEEDED | Failed | The inputted operator is a voucher type therefore it doesn't need the player id validation. You don’t need to hit inquiry on voucher purchase.
+ 143 | INQUIRY NOT NEEDED | Failed | The inputted operator is a voucher type therefore it doesn't need the player id validation. You don’t need to hit inquiry on voucher purchase. (https://api.iak.id/docs/reference/ec804704ff306-inquiry-game-server)
