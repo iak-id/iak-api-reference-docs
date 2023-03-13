@@ -22,7 +22,7 @@ Response code | Description | Status | Solution
  117 | PAGE NOT FOUND | Failed | The API URL that you want to hit is not found. Try checking your request URL for any typos or try other API URLs.
  121 | MONTHLY TOP UP LIMIT EXCEEDED | Failed | -
  131 | TOP UP REGION BLOCKED FOR PLAYER | Failed | Your current destination number top up request is blocked in that region. Please try again with a different destination number.
- 141 | INVALID USER ID / ZONE ID / SERVER ID / ROLENAME | Failed | Your inputted user ID / Zone ID / Server ID / Role name isn’t valid. Please try again with another user ID / Zone ID / Server ID / Role name.
+ 141 | INVALID USER ID / ZONE ID / SERVER ID / ROLENAME | Failed | Your inputted user ID / Zone ID / Server ID / Role name isn’t valid. Please try again with another user ID / Zone ID / Server ID / Role name. (https://api.iak.id/docs/reference/ec804704ff306-inquiry-game-server)
  142 | INVALID USER ID | Failed | Your current destination number (user id) top up request is invalid. Please try again with a different destination number or try checking for typos in your field.
  201 | UNDEFINED RESPONSE CODE | Pending | The received response code is undefined yet. Please contact our Customer Service.
  202 | MAXIMUM 1 NUMBER 1 TIME IN 1 DAY | Failed | You can only top up to a phone number once in a day (based on your developer setting). If you want to allow more than one top up to a phone number, you can go to https://developer.iak.id/ then choose API Setting menu, you can turn on “Allow multiple transactions for the same number” in development or production settings.
@@ -38,4 +38,4 @@ Below is additional response code that applied for inquiry game section only.
 
 Response code | Description | Status | Description
 ---------|----------|---------|---------
- 143 | INQUIRY NOT NEEDED | Failed | The inputted operator is a voucher type therefore it doesn't need the player id validation. You don’t need to hit inquiry on voucher purchase. (https://api.iak.id/docs/reference/ec804704ff306-inquiry-game-server)
+ 143 | INQUIRY NOT NEEDED | Failed | The inputted operator is a voucher type therefore it doesn't need the player id validation. You don’t need to hit inquiry on voucher purchase.
