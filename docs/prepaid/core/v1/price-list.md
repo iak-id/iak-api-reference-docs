@@ -70,6 +70,7 @@ Attributes | Type | Description | Mandatory
  masaaktif | String | Product aActive time period of reload (only applied for **pulsa and data**) | Yes
  status | String | Product status. <br> Value: `active`, `non active` | Yes
  icon_url| String | URL icon for each product | Yes
+ pulsa_category | String | Product category | Yes
 
 <!--
 type: tab
@@ -88,7 +89,8 @@ title: JSON
       "pulsa_type": "voucher",
       "masaaktif": "0",
       "status": "active",
-      "icon_url": "https://cdn.mobileproduct.net/img/product/operator_list/140119034649-Alfa-01.png"
+      "icon_url": "https://cdn.mobileproduct.net/img/product/operator_list/140119034649-Alfa-01.png",
+      "pulsa_category": "voucher",
     },
     {
       "pulsa_code": "altel10",
@@ -99,7 +101,8 @@ title: JSON
       "pulsa_type": "malaysia",
       "masaaktif": "0",
       "status": "active",
-      "icon_url": "-"
+      "icon_url": "-",
+      "pulsa_category": "international"
     },
     {
       "pulsa_code": "altel100",
@@ -110,7 +113,8 @@ title: JSON
       "pulsa_type": "malaysia",
       "masaaktif": "0",
       "status": "active",
-      "icon_url": "-"
+      "icon_url": "-",
+      "pulsa_category": "international"
     }
   ]
 }
@@ -134,6 +138,7 @@ title: XML
     <masaaktif>15</masaaktif>
     <status>active</status>
     <icon_url>https://cdn.mobileproduct.net/img/product/operator_list/140119034649-Alfa-01.png</icon_url>
+    <pulsa_category>pulsa</pulsa_category>
   </pulsa>
   <pulsa>
     <pulsa_code>hindosat100000</pulsa_code>
@@ -145,6 +150,7 @@ title: XML
     <masaaktif>60</masaaktif>
     <status>active</status>
     <icon_url>-</icon_url>
+    <pulsa_category>pulsa</pulsa_category>
   <pulsa>
     <pulsa_code>hindosat1000000</pulsa_code>
     <pulsa_op>Indosat</pulsa_op>
@@ -155,6 +161,7 @@ title: XML
     <masaaktif>60</masaaktif>
     <status>active</status>
     <icon_url>-</icon_url>
+    <pulsa_category>pulsa</pulsa_category>
   </pulsa>
 <mp>
 ```

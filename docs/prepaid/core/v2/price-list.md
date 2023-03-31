@@ -67,6 +67,7 @@ Attributes | Type | Description | Mandatory
  active_period | String | Product aActive time period of reload (only applied for **pulsa and data**) | Yes
  status | String | Product status. <br> Value: `active`, `non active` | Yes
  icon_url| String | URL icon for each product | Yes
+ product_category | String | Product category | Yes
  message | String | Message | Yes
  rc | String | Response code. See [response code](../../response-code.md) list | Yes
 
@@ -87,7 +88,8 @@ title: JSON
       "product_type": "voucher",
       "active_period": "0",
       "status": "active",
-      "icon_url": "https://cdn.mobileproduct.net/img/product/operator_list/140119034649-Alfa-01.png"
+      "icon_url": "https://cdn.mobileproduct.net/img/product/operator_list/140119034649-Alfa-01.png",
+      "product_category": "voucher",
     },
     {
       "product_code": "altel10",
@@ -99,6 +101,7 @@ title: JSON
       "active_period": "0",
       "status": "active",
       "icon_url": "-"
+      "product_category": "international",
     },
     {
       "product_code": "altel100",
@@ -110,6 +113,7 @@ title: JSON
       "active_period": "0",
       "status": "active",
       "icon_url": "-"
+      "product_category": "international",
     }
   ]
 }
@@ -128,11 +132,12 @@ title: XML
 		<product_description>Alfamart Voucher</product_description>
 		<product_nominal>Voucher Alfamart Rp 100.000</product_nominal>
 		<product_details>-</product_details>
-		<product_price>100000</product_price>
+		<product_price>99750</product_price>
 		<product_type>voucher</product_type>
 		<active_period>0</active_period>
 		<status>active</status>
-		<icon_url>https://cdn.mobileproduct.net/img/product/operator_list/140119034649-Alfa-01.png</icon_url>
+		<icon_url>https://cdn.mobilepulsa.net/img/product/operator_list/140119034649-Alfa-01.png</icon_url>
+		<product_category>voucher</product_category>
 	</pricelist>
 	<pricelist>
 		<product_code>altel10</product_code>
@@ -144,6 +149,7 @@ title: XML
 		<active_period>0</active_period>
 		<status>active</status>
 		<icon_url>-</icon_url>
+		<product_category>international</product_category>
 	</pricelist>
 	<pricelist>
 		<product_code>altel100</product_code>
@@ -155,6 +161,7 @@ title: XML
 		<active_period>0</active_period>
 		<status>active</status>
 		<icon_url>-</icon_url>
+		<product_category>international</product_category>
 	</pricelist>
 </mp>
 ```
