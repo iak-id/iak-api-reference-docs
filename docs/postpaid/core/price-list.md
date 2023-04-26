@@ -90,6 +90,7 @@ Attributes | Type | Description | Mandatory
  fee | Double | Admin fee | Yes
  komisi | Double | Commision to client | Yes
  type | String | Product type. See [here](#path-parameters) for available type | Yes
+ category | String | Product category | Yes
  province | String | 34 Provinces in Indonesia, this field only for PDAM type | No
 
 <!--
@@ -107,7 +108,8 @@ title: JSON
         "status": 1,
         "fee": 2500,
         "komisi": 700,
-        "type": "pdam"
+        "type": "pdam",
+        "category": "postpaid"
       },
       {
         "code": "BPJS",
@@ -115,7 +117,8 @@ title: JSON
         "status": 1,
         "fee": 2000,
         "komisi": 100,
-        "type": "bpjs"
+        "type": "bpjs",
+        "category": "postpaid"
       }
     ]
   },
@@ -131,24 +134,26 @@ title: XML
 ```json
 <?xml version="1.0" encoding="UTF-8" ?>
 <mp>
-	<data>
-		<pasca>
-			<code>AETRA</code>
-			<name>AETRA</name>
-			<status>1</status>
-			<fee>2500</fee>
-			<komisi>700</komisi>
-			<type>pdam</type>
-		</pasca>
-		<pasca>
-			<code>BPJS</code>
-			<name>BPJS Kesehatan</name>
-			<status>1</status>
-			<fee>2000</fee>
-			<komisi>100</komisi>
-			<type>bpjs</type>
-		</pasca>
-	</data>
+  <data>
+    <pasca>
+      <code>AETRA</code>
+      <name>AETRA</name>
+      <status>1</status>
+      <fee>2500</fee>
+      <komisi>700</komisi>
+      <type>pdam</type>
+      <category>postpaid</category>
+    </pasca>
+    <pasca>
+      <code>BPJS</code>
+      <name>BPJS Kesehatan</name>
+      <status>1</status>
+      <fee>2500</fee>
+      <komisi>1150</komisi>
+      <type>bpjs</type>
+      <category>postpaid</category>
+    </pasca>
+  </data>
 </mp>
 ```
 <!-- type: tab-end -->
