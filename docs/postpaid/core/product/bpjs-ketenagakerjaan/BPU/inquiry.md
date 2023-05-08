@@ -100,32 +100,33 @@ title: JSON
 
 ```json
 {
-    "data": {
-        "tr_id": 219342820,
-        "code": "BPJSTK",
-        "hp": "1271215712960003",
-        "tr_name": "DWI TAMARA ANGGITA",
-        "period": "1",
-        "nominal": 16800,
-        "admin": 3500,
-        "ref_id": "091283746511",
-        "response_code": "00",
-        "message": "INQUIRY SUCCESS",
-        "price": 20300,
-        "selling_price": 17800,
-        "desc": {
-            "kode_iuran": "",
-            "kode_program": "JKK,JKM",
-            "jht": 0,
-            "jkk": 10000,
-            "jkm": 6800,
-            "kantor_cabang": "KABUPATEN TANGERANG",
-            "tgl_efektif": "05-11-2022",
-            "tgl_expired": "09-10-2026"
-        }
-    },
-    "meta": []
-}
+	"data": {
+		"tr_id": 219342820,
+		"code": "BPJSTK",
+		"hp": "1271215712960003",
+		"tr_name": "DWI TAMARA ANGGITA",
+		"period": "1",
+		"nominal": 16800,
+		"admin": 3500,
+		"ref_id": "091283746511",
+		"response_code": "00",
+		"message": "INQUIRY SUCCESS",
+		"price": 20300,
+		"selling_price": 17800,
+		"desc": {
+			"kode_iuran": "",
+			"kode_program": "JKK,JKM",
+			"jht": 0,
+			"jkk": 10000,
+			"jkm": 6800,
+      "kantor_cabang": "KABUPATEN TANGERANG",
+			"tgl_efektif": "05-11-2022",
+			"tgl_expired": "09-10-2026"
+		}
+	},
+	"meta": []
+}.
+
 ```
 
 <!--
@@ -136,28 +137,28 @@ title: XML
 ```json
 <?xml version="1.0" encoding="UTF-8" ?>
 <mp>
-    <tr_id>219342820</tr_id>
-    <code>BPJSTK</code>
-    <hp>1271215712960003</hp>
-    <tr_name>DWI TAMARA ANGGITA</tr_name>
-    <period>1</period>
-    <nominal>16800</nominal>
-    <admin>3500</admin>
-    <ref_id>091283746511</ref_id>
-    <response_code>00</response_code>
-    <message>INQUIRY SUCCESS</message>
-    <price>20300</price>
-    <selling_price>17800</selling_price>
-    <desc>
-        <kode_iuran></kode_iuran>
-        <kode_program>JKK,JKM</kode_program>
-        <jht>0</jht>
-        <jkk>10000</jkk>
-        <jkm>6800</jkm>
-        <kantor_cabang>KABUPATEN TANGERANG</kantor_cabang>
-        <tgl_efektif>2022-05-11</tgl_efektif>
-        <tgl_expired>2024-08-10</tgl_expired>
-    </desc>
+	<tr_id>219342820</tr_id>
+	<code>BPJSTK</code>
+	<hp>1271215712960003</hp>
+	<tr_name>DWI TAMARA ANGGITA</tr_name>
+	<period>1</period>
+	<nominal>16800</nominal>
+	<admin>3500</admin>
+	<ref_id>091283746511</ref_id>
+	<response_code>00</response_code>
+	<message>INQUIRY SUCCESS</message>
+	<price>20300</price>
+	<selling_price>17800</selling_price>
+	<desc>
+		<kode_iuran></kode_iuran>
+		<kode_program>JKK,JKM</kode_program>
+		<jht>0</jht>
+		<jkk>10000</jkk>
+		<jkm>6800</jkm>
+    <kantor_cabang>KABUPATEN TANGERANG</kantor_cabang>
+		<tgl_efektif>2022-05-11</tgl_efektif>
+		<tgl_expired>2024-08-10</tgl_expired>
+	</desc>
 </mp>
 ```
 <!-- type: tab-end -->

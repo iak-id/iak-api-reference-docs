@@ -74,7 +74,6 @@ desc.**kode_program** | String | 	Choosen Program Code | Yes
 desc.**jht** | Integer | 	Pension Plan Fee | Yes
 desc.**jkk** | Integer | 	Accident Insurance Fee | Yes
 desc.**jkm** | Integer | 	Death Insurance Fee | Yes
-desc.**kantor_cabang** | String | 	Branch Office | Yes
 desc.**tgl_efektif** | String | 	Effective date. Format: `d-m-Y` | Yes
 desc.**tgl_expired** | String | 	Expired Date. Format: `d-m-Y` | Yes
 
@@ -85,34 +84,33 @@ title: JSON
 
 ```json
 {
-    "data": {
-        "tr_id": 219342820,
-        "code": "BPJSTK",
-        "datetime": "20220514000809",
-        "hp": "1271215712960003",
-        "tr_name": "DWI TAMARA ANGGITA",
-        "period": "1",
-        "nominal": 16800,
-        "admin": 3500,
-        "response_code": "00",
-        "message": "PAYMENT SUCCESS",
-        "price": 20300,
-        "selling_price": 17800,
-        "balance": 2436395,
-        "noref": "iak627e8f6bba054",
-        "ref_id": "ref-14_May_2022_0.03.39",
-        "desc": {
-            "kode_iuran": "922053115900",
-            "kode_program": "JKK,JKM",
-            "jht": 0,
-            "jkk": 10000,
-            "jkm": 6800,
-            "kantor_cabang": "KABUPATEN TANGERANG",
-            "tgl_efektif": "2022-05-11 05:29:52",
-            "tgl_expired": "2026-09-10 00:00:00"
-        }
-    },
-    "meta": []
+	"data": {
+		"tr_id": 219342820,
+		"code": "BPJSTK",
+		"datetime": "20220514000809",
+		"hp": "1271215712960003",
+		"tr_name": "DWI TAMARA ANGGITA",
+		"period": "1",
+		"nominal": 16800,
+		"admin": 3500,
+		"response_code": "00",
+		"message": "PAYMENT SUCCESS",
+		"price": 20300,
+		"selling_price": 17800,
+		"balance": 2436395,
+		"noref": "iak627e8f6bba054",
+		"ref_id": "ref-14_May_2022_0.03.39",
+		"desc": {
+			"kode_iuran": "922053115900",
+			"kode_program": "JKK,JKM",
+			"jht": 0,
+			"jkk": 10000,
+			"jkm": 6800,
+			"tgl_efektif": "2022-05-11 05:29:52",
+			"tgl_expired": "2026-09-10 00:00:00"
+		}
+	},
+	"meta": []
 }
 ```
 
@@ -124,31 +122,30 @@ title: XML
 ```json
 <?xml version="1.0" encoding="UTF-8" ?>
 <mp>
-    <tr_id>219342820</tr_id>
-    <code>BPJSTK</code>
-    <datetime>20220514000809</datetime>
-    <hp>1271215712960003</hp>
-    <tr_name>DWI TAMARA ANGGITA</tr_name>
-    <period>1</period>
-    <nominal>16800</nominal>
-    <admin>3500</admin>
-    <response_code>00</response_code>
-    <message>PAYMENT SUCCESS</message>
-    <price>20300</price>
-    <selling_price>17800</selling_price>
-    <balance>2436395</balance>
-    <noref>iak627e8f6bba054</noref>
-    <ref_id>ref-14_May_2022_0.03.39</ref_id>
-    <desc>
-        <kode_iuran>922053115900</kode_iuran>
-        <kode_program>JKK,JKM</kode_program>
-        <jht>0</jht>
-        <jkk>10000</jkk>
-        <jkm>6800</jkm>
-        <kantor_cabang>KABUPATEN TANGERANG</kantor_cabang>
-        <tgl_efektif>05-11-2022</tgl_efektif>
-        <tgl_expired>08-10-2024</tgl_expired>
-    </desc>
+	<tr_id>219342820</tr_id>
+	<code>BPJSTK</code>
+	<datetime>20220514000809</datetime>
+	<hp>1271215712960003</hp>
+	<tr_name>DWI TAMARA ANGGITA</tr_name>
+	<period>1</period>
+	<nominal>16800</nominal>
+	<admin>3500</admin>
+	<response_code>00</response_code>
+	<message>PAYMENT SUCCESS</message>
+	<price>20300</price>
+	<selling_price>17800</selling_price>
+	<balance>2436395</balance>
+	<noref>iak627e8f6bba054</noref>
+	<ref_id>ref-14_May_2022_0.03.39</ref_id>
+	<desc>
+		<kode_iuran>922053115900</kode_iuran>
+		<kode_program>JKK,JKM</kode_program>
+		<jht>0</jht>
+		<jkk>10000</jkk>
+		<jkm>6800</jkm>
+		<tgl_efektif>05-11-2022</tgl_efektif>
+		<tgl_expired>08-10-2024</tgl_expired>
+	</desc>
 </mp>
 ```
 <!-- type: tab-end -->
