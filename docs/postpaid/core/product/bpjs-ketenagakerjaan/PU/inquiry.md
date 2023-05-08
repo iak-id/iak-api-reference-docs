@@ -83,12 +83,13 @@ noref | String | Biller reference number (if exist) | No
 ref_id | String | Your order number / reference ID ( must unique ) | Yes
 desc | Object | Product description | Yes
 desc.**kode_iuran** | String | 	Contribution Code | Yes
-desc.**kode_program** | String | 	Chosen Program Code | Yes
 desc.**jht** | Integer | 	Pension Plan Fee | Yes
 desc.**jkk** | Integer | 	Accident Insurance Fee | Yes
 desc.**jkm** | Integer | 	Death Insurance Fee | Yes
 desc.**jpk** | Integer | 	Lost Job Fee | Yes
 desc.**jpn** | Integer | 	Pension Plan Fee | Yes
+desc.**npp** | String  | Company Registration Number | Yes
+desc.**kode_divisi** | String | Division Code | Yes
 
 <!--
 type: tab
@@ -97,30 +98,31 @@ title: JSON
 
 ```json
 {
-	"data": {
-		"tr_id": 219342904,
-		"code": "BPJSTKPU",
-		"hp": "210300016066",
-		"tr_name": "PT LIMABELAS",
-		"period": "202104",
-		"nominal": 100000,
-		"admin": 2500,
-		"ref_id": "ref-19_May_2022_16.36.47",
-		"response_code": "00",
-		"message": "INQUIRY SUCCESS",
-		"price": 102500,
-		"selling_price": 100500,
-		"desc": {
-			"kode_iuran": "210300016066",
-			"kode_program": "",
-			"jht": 61688,
-			"jkk": 1082,
-			"jkm": 2166,
-			"jpk": 2597,
-			"jpn": 32467
-		}
-	},
-	"meta": []
+    "data": {
+        "tr_id": 219342904,
+        "code": "BPJSTKPU",
+        "hp": "210300016066",
+        "tr_name": "PT LIMABELAS",
+        "period": "202104",
+        "nominal": 100000,
+        "admin": 2500,
+        "ref_id": "ref-19_May_2022_16.36.47",
+        "response_code": "00",
+        "message": "INQUIRY SUCCESS",
+        "price": 102500,
+        "selling_price": 100500,
+        "desc": {
+            "kode_iuran": "210300016066",
+            "jht": 61688,
+            "jkk": 1082,
+            "jkm": 2166,
+            "jpk": 2597,
+            "jpn": 32467,
+            "npp": "15092873",
+            "kode_divisi": "000"
+        }
+    },
+    "meta": []
 }
 
 ```
@@ -133,27 +135,28 @@ title: XML
 ```json
 <?xml version="1.0" encoding="UTF-8" ?>
 <mp>
-	<tr_id>219342904</tr_id>
-	<code>BPJSTKPU</code>
-	<hp>210300016066</hp>
-	<tr_name>PT LIMABELAS</tr_name>
-	<period>202104</period>
-	<nominal>100000</nominal>
-	<admin>2500</admin>
-	<ref_id>ref-19_May_2022_16.36.47</ref_id>
-	<response_code>00</response_code>
-	<message>INQUIRY SUCCESS</message>
-	<price>102500</price>
-	<selling_price>100500</selling_price>
-	<desc>
-		<kode_iuran>210300016066</kode_iuran>
-		<kode_program></kode_program>
-		<jht>61688</jht>
-		<jkk>1082</jkk>
-		<jkm>2166</jkm>
-		<jpk>2597</jpk>
-		<jpn>32467</jpn>
-	</desc>
+    <tr_id>219342904</tr_id>
+    <code>BPJSTKPU</code>
+    <hp>210300016066</hp>
+    <tr_name>PT LIMABELAS</tr_name>
+    <period>202104</period>
+    <nominal>100000</nominal>
+    <admin>2500</admin>
+    <ref_id>ref-19_May_2022_16.36.47</ref_id>
+    <response_code>00</response_code>
+    <message>INQUIRY SUCCESS</message>
+    <price>102500</price>
+    <selling_price>100500</selling_price>
+    <desc>
+        <kode_iuran>210300016066</kode_iuran>
+        <jht>61688</jht>
+        <jkk>1082</jkk>
+        <jkm>2166</jkm>
+        <jpk>2597</jpk>
+        <jpn>32467</jpn>
+        <npp>15092873</npp>
+        <kode_divisi>000</kode_divisi>
+    </desc>
 </mp>
 ```
 <!-- type: tab-end -->
