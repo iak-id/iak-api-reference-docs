@@ -32,7 +32,8 @@ code | String | Product Code. You can get list of product code in [pricelist api
 hp | String | Custom Denom payment code | Yes
 ref_id | String | Your order number / reference ID ( must unique ) | Yes
 sign | String | Signature. Value: `md5(username+api_key+ref_id)` | Yes
-nomor_identitas | String | Registered identity number | Yes
+desc | Obejct | Product description | Yes
+desc.**amount** | Integer | Custom nominal amount | Yes
 
 <!--
 type: tab
@@ -46,7 +47,10 @@ title: JSON
   "code"     : "SHOPEEPAY",
   "hp"       : "082100000001",
   "ref_id"   : "978994691278",
-  "sign"     : "6c6a046a14c444e44cfab5e4bbb01b01"
+  "sign"     : "6c6a046a14c444e44cfab5e4bbb01b01",
+  "desc"     : {
+    "amount" : 10000
+  }
 }
 ```
 
@@ -58,12 +62,15 @@ title: XML
 ```json
 <?xml version="1.0" ?>
 <mp>
-  <commands>inq-pasca</commands>
-  <username>123123123</username>
-  <code>SHOPEEPAY</code>
-  <hp>082100000001</hp>
-  <ref_id>978994691278</ref_id>
-  <sign>6c6a046a14c444e44cfab5e4bbb01b01</sign>
+	<commands>inq-pasca</commands>
+	<username>123123123</username>
+	<code>SHOPEEPAY</code>
+	<hp>082100000001</hp>
+	<ref_id>978994691278</ref_id>
+	<sign>6c6a046a14c444e44cfab5e4bbb01b01</sign>
+	<desc>
+		<amount>10000</amount>
+	</desc>
 </mp>
 ```
 <!-- type: tab-end -->
