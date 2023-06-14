@@ -45,3 +45,8 @@ IAK send response of the updated status to your [callback URL](https://developer
 If you don't want to use callback, you must call check status API to get the updated status.
 
 ![Flow tiwhout Callback](../../assets/images/prepaid-flow/without-callback-flow.png)
+
+## Tutorial Video
+You can see this video for prepaid flow explanation.
+
+https://youtu.be/0cPJFXVOsNQ
