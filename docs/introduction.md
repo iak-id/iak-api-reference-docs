@@ -9,5 +9,3 @@ IAK API use **RESTful API** as interface to communicate. Our API has predictable
 - We'd suggest to set the time out to 30 seconds for postpaid transaction
 
 You can use IAK API in sandbox or production environment. In sandbox environment is just simulation and will not interact with biller. The URL you use to call API will determine whether the transaction is in sandbox or production environment.
-
-You can visit [IAK's youtube channel](https://www.youtube.com/@iak_id) for IAK API tutorials.

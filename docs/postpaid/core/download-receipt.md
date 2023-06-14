@@ -27,12 +27,3 @@ BASE_URL/api/v1/download/123
 ## Response
 
 The response will be receipt in pdf format.
-
-## Tutorial Video
-You can see this video for download receipt code explanation using Laravel.
-
-https://youtu.be/5FllEMzrF4A
-
-Or you can see this video for download receipt code explanation using PHP.
-
-https://youtu.be/koSDjfgYsAM

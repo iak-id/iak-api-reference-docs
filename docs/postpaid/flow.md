@@ -9,7 +9,7 @@ Response code | Description | Status
  39 | PENDING / TRANSACTION IN PROCESS | Pending
  42 | PAYMENT REQUEST HAVEN'T BEEN RECEIEVED | Failed
 
-More response can be find [here](./response-code.md).
+More response can be find [here](./response-code.md)
 
 ## Normal Flow
 
@@ -39,9 +39,4 @@ More response can be find [here](./response-code.md).
   3. Client send payment request to IAK.
   4. IAK give payment response to client but client not receive the response.
   5. Client send check status request to IAK 
-  6. IAK give check status response to client that contain the transaction status and other details.
-
-## Tutorial Video
-You can see this video for postpaid flow explanation.
-
-https://youtu.be/b9Z0vQxEwmk
+  5. IAK give check status response to client that contain the transaction status and other details.

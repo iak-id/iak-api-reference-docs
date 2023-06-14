@@ -168,12 +168,3 @@ title: XML
 </mp>
 ```
 <!-- type: tab-end -->
-
-## Tutorial Video
-You can see this video for inquiry code explanation using Laravel.
-
-https://youtu.be/OF1jyOQ5kik
-
-Or you can see this video for inquiry code explanation using PHP.
-
-https://youtu.be/DeTTmq718Os

@@ -153,12 +153,3 @@ title: XML
 </mp>
 ```
 <!-- type: tab-end -->
-
-## Tutorial Video
-You can see this video for payment code explanation using Laravel.
-
-https://youtu.be/5FllEMzrF4A
-
-Or you can see this video for payment code explanation using PHP.
-
-https://youtu.be/koSDjfgYsAM
