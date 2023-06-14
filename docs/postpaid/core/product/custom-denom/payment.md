@@ -69,7 +69,7 @@ balance | Double | Client remaining balance | Yes
 noref | String | Biller reference number (if exist) | No
 ref_id | String | Your order number / reference ID ( must unique ) | Yes
 desc | Object | Product description | Yes
-desc.**footer** | String | Descriptions from supplier | Yes
+desc.**footer** | String | Product description | Yes
 
 <!--
 type: tab
