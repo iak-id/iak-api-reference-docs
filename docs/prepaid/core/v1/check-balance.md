@@ -94,3 +94,12 @@ title: XML
   }
 }
 ```
+
+## Tutorial Video
+You can see this video for check balance code explanation using Laravel.
+
+https://youtu.be/WiyhNdPmLMM
+
+Or you can see this video for check balance code explanation using PHP.
+
+https://youtu.be/zr9ht9aPWtg

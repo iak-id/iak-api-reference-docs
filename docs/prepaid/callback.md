@@ -351,3 +351,12 @@ title: Version 2
 ```
 
 <!-- type: tab-end -->
+
+## Tutorial Video
+You can see this video for callback code explanation using Laravel.
+
+https://youtu.be/HPHEuTeewyc
+
+Or you can see this video for callback code explanation using PHP.
+
+https://youtu.be/wqEtalW4pIg

@@ -486,3 +486,12 @@ title: XML
   }
 }
 ```
+
+## Tutorial Video
+You can see this video for check status code explanation using Laravel.
+
+https://youtu.be/5FllEMzrF4A
+
+Or you can see this video for check status code explanation using PHP.
+
+https://youtu.be/koSDjfgYsAM
