@@ -27,7 +27,7 @@ title: JSON
 {
   "commands" : "pay-pasca",
   "username" : "123123123", 
-  "tr_id"    : "24462352",
+  "tr_id"    : "131024523",
   "sign"     : "e4fe9e9c8ba737d6897e7f15bb1380a0"
 }
 ```
@@ -42,7 +42,7 @@ title: XML
   <mp>
     <commands>pay-pasca</commands>
     <username>123123123</username>
-    <tr_id>24462352</tr_id>
+    <tr_id>131024523</tr_id>
     <sign>e4fe9e9c8ba737d6897e7f15bb1380a0</sign>
   </mp>
 ```
@@ -93,7 +93,7 @@ title: JSON
     "selling_price": 100350,
     "balance": 999899650,
     "noref": "f08ff5e3-8543-42a1-b885-04b9f1b521d4",
-    "ref_id": "pasca-1684484973",
+    "ref_id": "pasca-978994691278",
     "desc": {
       "footer": ""
     }
@@ -124,7 +124,7 @@ title: XML
 		<selling_price>100350</selling_price>
 		<balance>999899650</balance>
 		<noref>f08ff5e3-8543-42a1-b885-04b9f1b521d4</noref>
-		<ref_id>pasca-1684484973</ref_id>
+		<ref_id>pasca-978994691278</ref_id>
 		<desc>
 			<footer></footer>
 		</desc>
@@ -144,7 +144,7 @@ title: XML
   "body": {
     "commands": "pay-pasca",
     "username": "{your username}",
-    "tr_id": "24462352",
+    "tr_id": "131024523",
     "sign": "{your sign}"
   }
 }

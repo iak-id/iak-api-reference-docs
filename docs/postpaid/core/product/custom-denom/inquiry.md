@@ -46,10 +46,10 @@ title: JSON
   "username" : "123123123",
   "code"     : "SHOPEEPAY",
   "hp"       : "082100000001",
-  "ref_id"   : "978994691278",
+  "ref_id"   : "pasca-978994691278",
   "sign"     : "6c6a046a14c444e44cfab5e4bbb01b01",
   "desc"     : {
-    "amount" : 10000
+    "amount" : 100000
   }
 }
 ```
@@ -66,10 +66,10 @@ title: XML
 	<username>123123123</username>
 	<code>SHOPEEPAY</code>
 	<hp>082100000001</hp>
-	<ref_id>978994691278</ref_id>
+	<ref_id>pasca-978994691278</ref_id>
 	<sign>6c6a046a14c444e44cfab5e4bbb01b01</sign>
 	<desc>
-		<amount>10000</amount>
+		<amount>100000</amount>
 	</desc>
 </mp>
 ```
@@ -110,7 +110,7 @@ title: JSON
     "period": "",
     "nominal": 100000,
     "admin": 800,
-    "ref_id": "pasca-1684484973",
+    "ref_id": "pasca-978994691278",
     "response_code": "00",
     "message": "INQUIRY SUCCESS",
     "price": 100800,
@@ -138,7 +138,7 @@ title: XML
   <period></period>
   <nominal>100000</nominal>
   <admin>800</admin>
-  <ref_id>pasca-1684484973</ref_id>
+  <ref_id>pasca-978994691278</ref_id>
   <response_code>00</response_code>
   <message>INQUIRY SUCCESS</message>
   <price>100800</price>
@@ -164,7 +164,7 @@ title: XML
     "username": "{your username}",
     "code": "SHOPEEPAY",
     "hp": "082100000001",
-    "ref_id": "0912837465",
+    "ref_id": "pasca-978994691278",
     "sign": "{your sign}"
   }
 }
