@@ -12,7 +12,14 @@ POST | api/v1/bill/check
 
 Code | Number | Response
 ---------|----------|---------
-BPJSTK | 1271215712960003 | Success
+BPJSTK | 8102051011270001 | Success
+BPJSTK | 8102051011270002 | Success
+BPJSTK | 8102051011270003 | Inquiry - Time Out
+BPJSTK | 8102051011270004 | Inquiry - Invoice Has Been Paid
+BPJSTK | 8102051011270005 | Inquiry - Incorrect Destination Number
+BPJSTK | 8102051011270006 | Payment - Payment Failed
+BPJSTK | 8102051011270007 | Payment - Pending / transaction in process
+BPJSTK | 8102051011270008 | Payment - MISC Error / Biller System Error
 
 ## Request Body
 
