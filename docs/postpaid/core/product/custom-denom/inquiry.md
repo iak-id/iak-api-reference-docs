@@ -165,7 +165,10 @@ title: XML
     "code": "SHOPEEPAY",
     "hp": "082100000001",
     "ref_id": "pasca-978994691278",
-    "sign": "{your sign}"
+    "sign": "{your sign}",
+    "desc": {
+      "amount": 100000
+    }
   }
 }
 ```
