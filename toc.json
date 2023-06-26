@@ -559,6 +559,22 @@
                   "uri": "docs/postpaid/core/product/insurance/payment.md"
                 }
               ]
+            },
+            {
+              "type": "group",
+              "title": "Custom Denom E-money",
+              "items": [
+                {
+                  "type": "item",
+                  "title": "Inquiry",
+                  "uri": "docs/postpaid/core/product/custom-denom/inquiry.md"
+                },
+                {
+                  "type": "item",
+                  "title": "Payment",
+                  "uri": "docs/postpaid/core/product/custom-denom/payment.md"
+                }
+              ]
             }
           ]
         },
