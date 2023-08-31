@@ -31,6 +31,7 @@ code | String | Product Code. You can get list of product code in [pricelist api
 hp | String | Tax object number | Yes
 ref_id | String | Your order number / reference ID ( must unique ) | Yes
 sign | String | Signature. Value: `md5(username+api_key+ref_id)` | Yes
+year | String | Number of year you're willing to pay | Yes
 
 <!--
 type: tab
@@ -45,6 +46,7 @@ title: JSON
   "hp"       : "329801092375999901",
   "ref_id"   : "978994691278",
   "sign"     : "6c6a046a14c444e44cfab5e4bbb01b01"
+  "year"     : "2023",
 }
 ```
 
@@ -62,6 +64,7 @@ title: XML
   <hp>329801092375999901</hp>
   <ref_id>978994691278</ref_id>
   <sign>6c6a046a14c444e44cfab5e4bbb01b01</sign>
+  <year>2023</year>
 </mp>
 ```
 <!-- type: tab-end -->
