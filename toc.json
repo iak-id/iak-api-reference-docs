@@ -575,6 +575,44 @@
                   "uri": "docs/postpaid/core/product/custom-denom/payment.md"
                 }
               ]
+            },
+            {
+              "type": "group",
+              "title": "Church Offering",
+              "items": [
+                {
+                  "type": "group",
+                  "title": "Member",
+                  "items": [
+                    {
+                      "type": "item",
+                      "title": "Inquiry",
+                      "uri": "docs/postpaid/core/product/persembahan-gereja/member/inquiry.md"
+                    },
+                    {
+                      "type": "item",
+                      "title": "Payment",
+                      "uri": "docs/postpaid/core/product/persembahan-gereja/member/payment.md"
+                    }
+                  ]
+                },
+                {
+                  "type": "group",
+                  "title": "Non Member",
+                  "items": [
+                    {
+                      "type": "item",
+                      "title": "Inquiry",
+                      "uri": "docs/postpaid/core/product/persembahan-gereja/non-member/inquiry.md"
+                    },
+                    {
+                      "type": "item",
+                      "title": "Payment",
+                      "uri": "docs/postpaid/core/product/persembahan-gereja/non-member/payment.md"
+                    }
+                  ]
+                }
+              ]
             }
           ]
         },
