@@ -50,4 +50,5 @@ Response code | Description | Status
 109 | SYSTEM CUT OFF | Failed
 110 | SYSTEM UNDER MAINTENANCE | Failed
 117 | PAGE NOT FOUND | Failed
+118 | ACCOUNT SUSPENDED | Failed
 201 | UNDEFINED RESPONSE CODE | Pending
