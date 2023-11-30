@@ -50,4 +50,5 @@ Response code | Description | Status | Solution
 109 | SYSTEM CUT OFF | Failed | PLN product code cannot receive a request at 11PM until 1AM (GMT +7). Please try again when the service is available.
 110 | SYSTEM UNDER MAINTENANCE | Failed | The system is currently under maintenance, you can try again later.
 117 | PAGE NOT FOUND | Failed | The API URL that you want to hit is not found. Try checking your request URL for any typos or try other API URLs.
+118 | ACCOUNT SUSPENDED | Failed | Your account is temporarily suspended. Contact our CS at cs@mobilepulsa.com or (021) 3042 9884 for further instruction.
 201 | UNDEFINED RESPONSE CODE | Pending | The received response code is undefined yet. Please contact our Customer Service.
