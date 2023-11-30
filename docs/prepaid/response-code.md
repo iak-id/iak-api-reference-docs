@@ -20,6 +20,7 @@ Response code | Description | Status | Solution
  107 | ERROR IN XML FORMAT | Failed | The body format of your request isn’t correct or there is an error in your body (required, ajax error, etc). Please use the correct JSON or XML format corresponding to your request to API. You can see the required body request for each request in the API Documentation (https://api.iak.id/docs/reference).
  110 | SYSTEM UNDER MAINTENANCE | Failed | The system is currently under maintenance, you can try again later.
  117 | PAGE NOT FOUND | Failed | The API URL that you want to hit is not found. Try checking your request URL for any typos or try other API URLs.
+ 118 | ACCOUNT SUSPENDED | Failed | Your account is temporarily suspended. Contact our CS at cs@mobilepulsa.com or (021) 3042 9884 for further instruction.
  121 | MONTHLY TOP UP LIMIT EXCEEDED | Failed | -
  131 | TOP UP REGION BLOCKED FOR PLAYER | Failed | Your current destination number top up request is blocked in that region. Please try again with a different destination number.
  141 | INVALID USER ID / ZONE ID / SERVER ID / ROLENAME | Failed | Your inputted user ID / Zone ID / Server ID / Role name isn’t valid. Please try again with another user ID / Zone ID / Server ID / Role name. (https://api.iak.id/docs/reference/ec804704ff306-inquiry-game-server)
